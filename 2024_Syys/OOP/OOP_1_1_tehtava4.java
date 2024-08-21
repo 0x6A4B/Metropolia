@@ -1,12 +1,11 @@
-public class Cat {
-    private String name;
+/*
+ * Cat says Meow!
+ */
 
-    public Cat(String name) {
-        this.name = name;
-    }
+public class OOP_1_1_tehtava4 {
+
 
     public void meow() {
-        System.out.println("The cat named " + name + " says: Meow!");
     }
 
     public static void main(String[] args) {
@@ -19,4 +18,18 @@ public class Cat {
         rex.meow();
         cat.meow();
     }
+}
+
+public class Cat{
+
+    private String name = "";
+
+    public Cat(String name){
+        this.name = name;
+    }
+
+    public void meow(){
+        System.out.println("The cat named " + name + " says: Meow!");
+    }
+
 }

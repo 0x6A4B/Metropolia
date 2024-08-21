@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class FtoC{
+public class OOP_1_2_tehtava1{
 
     public static void main(String[] args){
         System.out.print("Give temperature in Fahrenheit: ");

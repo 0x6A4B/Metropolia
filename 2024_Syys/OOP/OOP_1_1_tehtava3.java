@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class SumOfThreeNumbers {
+public class OOP_1_1_tehtava3 {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

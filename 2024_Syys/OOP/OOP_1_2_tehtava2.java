@@ -6,7 +6,7 @@
 
 import java.util.Scanner;
 
-public class Tehtava2_1_2{
+public class OOP_1_2_tehtava2{
 
     public static void main(String[] args){
         System.out.print("Input the length of the first leg of a right triangle: ");

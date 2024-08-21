@@ -8,7 +8,7 @@
  */
 
 
-public class Tehtava2{
+public class OOP_1_1_tehtava2{
     
     private static String spaces(int length, int asterisks){
         int spcs = (length - asterisks) / 2;

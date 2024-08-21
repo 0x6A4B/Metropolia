@@ -12,11 +12,11 @@
 import java.util.Scanner;
 
 
-public class Moduuli_1_2_Tehtava_3{
+public class OOP_1_2_tehtava3{
 
-    private static final double luotiGrams = 13.28;
-    private static final int naulaLuoti = 32;
-    private static final int leivNaula = 20;
+    private static final double LUOTI_GRAMS = 13.28;
+    private static final int NAULA_LUOTI = 32;
+    private static final int LEIV_NAULA = 20;
 
 
     public static void main(String[] args){
@@ -28,15 +28,15 @@ public class Moduuli_1_2_Tehtava_3{
         grams = Integer.parseInt(new Scanner(System.in).nextLine());
 
         // We calculate leiviskä from grams in integer
-        leiv = (int) (grams/(leivNaula*naulaLuoti*luotiGrams));
+        leiv = (int) (grams/(LEIV_NAULA*NAULA_LUOTI*LUOTI_GRAMS));
         // We take modulus
-        double modu = grams%(leivNaula*naulaLuoti*luotiGrams);
+        double modu = grams%(LEIV_NAULA*NAULA_LUOTI*LUOTI_GRAMS);
         // Use the modulus to calculate naula from it
-        naula = (int) (modu/(naulaLuoti*luotiGrams));
+        naula = (int) (modu/(NAULA_LUOTI*LUOTI_GRAMS));
         // Again use the assistant variable for modulus
-        modu = modu%(naulaLuoti*luotiGrams);
+        modu = modu%(NAULA_LUOTI*LUOTI_GRAMS);
         // And get the luoti from what is left after calculating leiviskä and naula
-        luoti = modu/luotiGrams;
+        luoti = modu/LUOTI_GRAMS;
 
 
         System.out.printf("%d grams is %d leiviskä, %d naula, and %.2f luoti.\n", grams, leiv, naula, luoti);
