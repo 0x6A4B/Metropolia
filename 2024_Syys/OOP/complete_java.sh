@@ -1,1 +1,1 @@
-complete -f -X '.java' java
+complete -f -X '!*.java' java
