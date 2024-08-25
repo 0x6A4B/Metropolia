@@ -1,5 +1,6 @@
 //
-// Will not work if multiple subarrays have the same max sum!
+// Will not work reliably if multiple subarrays have the same max sum!
+// Will just return the first subarray
 //
 
 import java.util.Scanner;
@@ -46,68 +47,27 @@ public class OOP_1_4_tehtava2{
             }
         }
 
-// This gave me a BRAIN ANEURYSM and stage 666 cancer in the nuggin'
-// I can't get the location of the subarray reliably because I'm returning
-// an integer array and the empties are 0's so if user enter's zeroes I can't
-// tell them from empties. Also am not gonna keep on digging my hole any larger
-// So will just opt for the beautiful ALIEN ORIENTED PROGRAMMING(tm) with pretty aliens
-//
-// I left this as a reminder to haunt me for the rest of my life
 /*
-        int indx = 0;
-        int[] bullseye = new int[((size > args.length) ? size : args.length)];
-        for (int[] u: getSubArrays(array)){
-            int sum = 0;
-            for (int uu: u){
-                sum += uu;
-                System.out.print(uu + ",");
-                //maxSum = (sum > maxSum) ? sum : maxSum;
-                if (sum > maxSum){
-                    maxSum = sum;
-                    indexOfMaxSum = indx;
-                    bullseye = u;
+// Unfinished
+        Integer[][] _subA = getSubArrays(array);
+        int _maxSum = 0, _start = 0, _size = 0;
+
+        for (Integer[] _i: _subA){
+            int _sum = 0;
+            for (Integer _ii : _i){
+                
+                if (_i != null){
+                    _sum += _sum;
+                    _size++;
                 }
+
             }
-            indx++;
-        }
 
-        int startOfHit = 0, endOfHit = 0;
-        boolean gotHit = false;
-        int sizeOfSubArrays = getSubArrays(array).length;
-        int sizeOfSubArray = size; int rounds = 0;
-        for (int x = sizeOfSubArrays; x > indexOfMaxSum; x--){
-            rounds++;
-        }
-        // omg there is a formula for this but I'm done
-        sizeOfSubArray = size - ((rounds-1)/2); //size - rounds;
-        for (int å: bullseye){
-            for (int åå = 0; åå < bullseye.length; åå++){
-                if (å == array[åå]){
-                    int öö = 1;
-                    for (int ååå = åå+1; ååå < array.length; ååå++){
-                        if (öö >= bullseye.length)
-                            break;
-                        if (bullseye[öö] == array[ååå]){
-                            gotHit = true;
-                        }else
-                            gotHit = false;
-                        öö++;
-
-                    }
-                    if (gotHit){
-                        startOfHit = åå; endOfHit = öö;
-                        break;
-                    }
-
-                }
-                if (gotHit)
-                    break;
-            }
         }
 */
 
+        /* Using subarray class */
         OOP_1_4_tehtava2 oo = new OOP_1_4_tehtava2();
-//        int maxxSum = 0; int alku = 0, loppu = 0;
         for (SubArray s: oo.getArrayObjects(array)){
             if (s.getSum() > maxSum) {
                 maxSum = s.getSum();
@@ -126,11 +86,9 @@ public class OOP_1_4_tehtava2{
         new SubArray().printAlien();
     }
 
-    // the method used to get subarrays but won't help you get the indices of the
-    // integers the user input. Useless to fill all the requirements but at least
-    // I used precious natural resources for the energy to produce this...
-    private static int[][] getSubArrays(int a[]){
-        int[][] subArr = new int[a.length*(a.length+1)/2][a.length];
+    // not used with the class based solution
+    private static Integer[][] getSubArrays(int a[]){
+        Integer[][] subArr = new Integer[a.length*(a.length+1)/2][a.length];
         int sizeOfSub = 1;
         int nrOfLoops =  a.length;
         int startIndex = 0;
