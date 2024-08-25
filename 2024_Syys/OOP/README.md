@@ -93,8 +93,9 @@ Tehtävät 1, 2 ja 3: tehty.
 https://github.com/0x6A4B/Metropolia/blob/5f7fac3ed8781e28767cac49f7425ac7f6143077/2024_Syys/OOP/OOP_1_4_tehtava1.java
 
 
-[Tehtävä 2](
+[Tehtävä 2](https://github.com/0x6A4B/Metropolia/blob/ca4a59268c639ee40965d39f9d26ec8122c16052/2024_Syys/OOP/OOP_1_4_tehtava2.java)
 
+https://github.com/0x6A4B/Metropolia/blob/ca4a59268c639ee40965d39f9d26ec8122c16052/2024_Syys/OOP/OOP_1_4_tehtava2.java
 
 
 [Tehtävä 3](https://github.com/0x6A4B/Metropolia/blob/5f7fac3ed8781e28767cac49f7425ac7f6143077/2024_Syys/OOP/OOP_1_4_tehtava3.java)
