@@ -4,6 +4,7 @@ import java.util.Random;
 public class ServicePoint{
     int minServiceTime = 500, maxServiceTime = 1500; // ms per customer
     int sumServiceTime = 0;
+    int sumCustomers = 0;
     LinkedList<Customer> queue = new LinkedList<Customer>();
 
     public ServicePoint(){
@@ -36,11 +37,16 @@ public class ServicePoint{
             System.out.println("Customer: " + c.getId() + " - Service time: " + serviceTime + " response time: "
                     + (serviceTime + c.getQueueTime()));
             sumServiceTime += serviceTime;
+            sumCustomers++;
         }
     }
 
     public int getSumServiceTime(){
         return sumServiceTime;
+    }
+
+    public int getNumOfCustomers(){
+        return sumCustomers;
     }
 
     private void error(Exception e){

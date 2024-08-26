@@ -21,9 +21,10 @@ public class Main{
         generator.getServicePoint().serve();
 
         int serviceTime = generator.getServicePoint().getSumServiceTime();
-        System.out.println("Service time for " + nrOfCustomers + " customers: "
+        int customersServed = generator.getServicePoint().getNumOfCustomers();
+        System.out.println("Service time for " + customersServed + " customers: "
                 + serviceTime + " - Average service time per customer: "
-                + (1.0*serviceTime/nrOfCustomers));
+                + (1.0*serviceTime/customersServed));
 
     }
 
