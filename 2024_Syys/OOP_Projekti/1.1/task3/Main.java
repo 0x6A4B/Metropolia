@@ -6,9 +6,9 @@ public class Main{
 
     public static void main(String[] args){
 
-        Asiakas customer;
+        Customer customer;
 
-        LinkedList<Asiakas> customers = new LinkedList<>();
+        LinkedList<Customer> customers = new LinkedList<>();
         Scanner readInput = new Scanner(System.in);
 
         boolean menu = true;
@@ -21,7 +21,7 @@ public class Main{
             switch(input){
                 case 'C':
                 case 'c':
-                    customer = new Asiakas();
+                    customer = new Customer();
                     customers.addFirst(customer);
                     customer.setQueueIn();
                     break;
@@ -30,7 +30,7 @@ public class Main{
                     if (customers.size() > 0){
                         customer = customers.removeLast();
                         customer.setQueueOut();
-                        System.out.println("Asiakas " + customer.getId() + " haettu. Vietti aikaa jonossa: " + customer.getQueueTime() + " millisekuntia");
+                        System.out.println("Customer " + customer.getId() + " haettu. Vietti aikaa jonossa: " + customer.getQueueTime() + " millisekuntia");
                     } else
                         System.out.println("Queue is empty.");
 

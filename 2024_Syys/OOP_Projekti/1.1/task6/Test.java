@@ -14,6 +14,12 @@ public class Test{
 
         servicePoint.serve();
 
+        int serviceTime = servicePoint.getSumServiceTime();
+        int customersServed = servicePoint.getNumOfCustomers();
+        System.out.println("Service time for " + customersServed + " customers: "
+                + serviceTime + " - Average service time per customer: "
+                + (1.0*serviceTime/customersServed));
+
         if (servicePoint.getNumOfCustomers() != i)
             System.out.println("Failure in serving all customers "
                     + "or keeping track of served customers");

@@ -1,4 +1,4 @@
-public class Asiakas{
+public class Customer{
 
 
     private static int lastId = 0;
@@ -8,29 +8,22 @@ public class Asiakas{
     private long endTime;
     private String name;
 
-    public Asiakas(){
-        
+    public Customer(){
         setId(++lastId);
-
-        System.out.println("Asiakas: " + this.id + " luotu");
-
+        System.out.println("Customer: " + this.id + " luotu");
     }
 
-
-    public Asiakas(int id){
-
-        System.out.println("Asiakas luotu");
+/*
+    public Customer(int id){
+        setId(id);
+        System.out.println("Customer luotu");
 
     }
-
-    public void setId(int id){
-
-        if (id > 1000 && id < Integer.MAX_VALUE){
+*/
+    private void setId(int id){
+        if (id >= 1 && id < Integer.MAX_VALUE){
             this.id = id;
-            lastId++;
-
-        }        
-        this.id = id;
+        }
     }
 
     public int getId(){

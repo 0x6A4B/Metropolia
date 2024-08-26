@@ -6,6 +6,13 @@ public class Main{
 
     public static void main(String[] args){
 
+        if (args.length > 0 && args[0].toLowerCase().equals("test"))
+            Test();
+        else
+            Menu();
+    }
+
+    public static void Menu(){
         Customer customer;
 
         LinkedList<Customer> customers = new LinkedList<>();
@@ -48,4 +55,30 @@ public class Main{
         }
     }
 
+
+    public static void Test(){
+        LinkedList<Customer> list = new LinkedList<>();
+
+        for (int i = 0; i < 100; i++){
+            Customer c = new Customer();
+            c.setQueueIn();
+            list.addFirst(c);
+            Wait();
+        }
+
+        while (!list.isEmpty()){
+            Wait();
+            Customer c = list.removeLast();
+            c.setQueueOut();
+            System.out.println("Customer " + c.getId() + " queuetime " + c.getQueueTime() + "ms");
+        }
+    }
+
+    private static void Wait(){
+        try{
+            Thread.sleep((int)(200*Math.random()));
+        }catch(Exception e){
+            System.out.println("Erroria pukkaa, mutta pukakkoo :) Ei voi olla meistä kii O_o");
+        }
+    }
 }
