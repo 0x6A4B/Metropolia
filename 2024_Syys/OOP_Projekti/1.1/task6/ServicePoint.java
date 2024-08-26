@@ -18,6 +18,7 @@ public class ServicePoint{
     public Customer removeFromQueue(){
         Customer c = queue.pop();
         c.setQueueOut();
+        sumCustomers++;
         return c;
     }
 
@@ -37,7 +38,6 @@ public class ServicePoint{
             System.out.println("Customer: " + c.getId() + " - Service time: " + serviceTime + " response time: "
                     + (serviceTime + c.getQueueTime()));
             sumServiceTime += serviceTime;
-            sumCustomers++;
         }
     }
 
