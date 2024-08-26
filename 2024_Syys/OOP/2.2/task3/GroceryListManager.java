@@ -32,16 +32,16 @@ public class GroceryListManager{
 
     }
 
-    private HashMap<String, Double, String> groceryList = new HashMap<>();
+    private HashMap<Grocery, Double> groceryList = new HashMap<>();
 
     public void addItem(String s, Double d){
         if (!checkItem(s) )
-            groceryList.put(s, d, "Uncategorized");
+            groceryList.put(new Grocery(s, "Uncategorized"), d);
     }
     
     public void addItem(String s, Double d, String c){
         if (!checkItem(s) )
-            groceryList.put(s, d, c);
+            groceryList.put(new Grocery(s, c), d);
     }
 
     public boolean removeItem(String item){
@@ -50,12 +50,24 @@ public class GroceryListManager{
 
     public void displayList(){
         int i = 1;
-        Set<Map.Entry<String, Double>> set = groceryList.entrySet();
+        Set<Map.Entry<Grocery, Double>> set = groceryList.entrySet();
 
-        for (Map.Entry<String, Double> e : set){
-            System.out.println(i++ + ". " + e.getKey() + " - " + e.getValue() + "RMB");
+        for (Map.Entry<Grocery, Double> e : set){
+            System.out.println(i++ + ". " + e.getKey().getName() + " - " 
+                    + e.getValue() + "RMB");
         }
 
+    }
+
+    public void displayByCategory(String cat){
+        int i = 1;
+        Set<Map.Entry<Grocery, Double>> set = groceryList.entrySet();
+
+        for (Map.Entry<Grocery, Double> e : set){
+            if (e.getKey().getCategory() == cat)
+                System.out.println(i++ + ". " + e.getKey().getName() + " - " 
+                        + e.getValue() + "RMB");
+        }
     }
 
     public boolean checkItem(String s){
@@ -64,13 +76,27 @@ public class GroceryListManager{
 
     public double calculateTotalCost(){
         double totalCost = 0;
-        Set<Map.Entry<String, Double>> set = groceryList.entrySet();
+        Set<Map.Entry<Grocery, Double>> set = groceryList.entrySet();
 
-        for (Map.Entry<String, Double> e : set ){
+        for (Map.Entry<Grocery, Double> e : set ){
             totalCost += e.getValue();
         }
 
         return totalCost;
+    }
+
+    class Grocery{
+        String name;
+        String category;
+
+        Grocery(){}
+        Grocery(String name, String cat){ this.name = name; category = cat; }
+
+        public void setName(String s){ name = s;}
+        public void setCategory(String s){ category = s; }
+        public String getName() { return name; }
+        public String getCategory() { return category; }
+
     }
 
 }
