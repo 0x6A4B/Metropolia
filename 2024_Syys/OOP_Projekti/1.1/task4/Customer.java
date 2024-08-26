@@ -9,28 +9,16 @@ public class Customer{
     private String name;
 
     public Customer(){
-        
         setId(++lastId);
-
-        System.out.println("Customer: " + this.id + " created");
-
+        System.out.println("Customer: " + this.id + " luotu");
     }
 
-
-    public Customer(int id){
-
-        System.out.println("Customer created");
-
-    }
-
-    public void setId(int id){
-
-        if (id > 1000 && id < Integer.MAX_VALUE){
+    private void setId(int id){
+        if (id >= 1 && id < Integer.MAX_VALUE){
             this.id = id;
-            lastId++;
-
-        }        
-        this.id = id;
+        }
+        else
+            System.out.println("Horrible failure as Id is just plain wrong! What are you doing, crazy person?!");
     }
 
     public int getId(){
