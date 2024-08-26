@@ -23,18 +23,12 @@ public class Customer{
         System.out.print("\n");
     }
 
-
-
-    public Customer(int id){
-        System.out.println("Customer created");
-    }
-
-    public void setId(int id){
-        if (id > 1000 && id < Integer.MAX_VALUE){
+    private void setId(int id){
+        if (id >= 1 && id < Integer.MAX_VALUE){
             this.id = id;
-            lastId++;
-        }        
-        this.id = id;
+        }
+        else        
+            System.out.println("Error in setting Id for customer");
     }
 
     public int getId(){
