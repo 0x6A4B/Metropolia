@@ -3,10 +3,10 @@ public class CarDriver {
 public static void main(String[] args) {
         Car myCar;
 
-        myCar = new Car("Toyota Corolla");
+        myCar = new Car("Toyota Corolla", 80, 180);
         myCar.fillTank();
 
-        for (int i = 0; i < 6; i++) {
+        for (int i = 0; i < 26; i++) {
             myCar.accelerate();
             System.out.println(myCar.getTypeName() + ": speed is " + myCar.getSpeed() + " km/h");
         }

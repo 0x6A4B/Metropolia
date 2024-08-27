@@ -23,10 +23,7 @@ public class Car {
     }
 
     // Additional constructor
-    public Car(String t, double g, double s){
-        speed = 0; gasolineLevel = 0;
-        tankCapacity = g; maxSpeed = s; typeName = t;
-    }
+    public Car(String t, double g, double s){ this(t); tankCapacity = g; maxSpeed = s; }
 
     /* Implementations of some methods.
      * Note that methods refer to and change instance variable values.
@@ -37,23 +34,23 @@ public class Car {
         else
             speed = 0;
     }
-    void decelerate(int amount) {
+    public void decelerate(int amount) {
         if (gasolineLevel > 0) {
             if (amount > 0)
                 speed = Math.max(0, speed - amount);
         } else
             speed = 0;
     }
-    double getSpeed() {
+    public double getSpeed() {
         return speed;
     }
-    String getTypeName() {
+    public String getTypeName() {
         return typeName;
     }
-    void fillTank() {
+    public void fillTank() {
         gasolineLevel = tankCapacity;
     }
-    double getGasolineLevel() {
+    public double getGasolineLevel() {
         return gasolineLevel;
     }
 }

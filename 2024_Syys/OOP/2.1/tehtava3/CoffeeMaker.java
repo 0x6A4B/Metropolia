@@ -3,19 +3,18 @@ public class CoffeeMaker{
     int amount = 50, minAmount = 10, maxAmount = 80;
     boolean isOn = false;
    
-    CoffeeMaker(){
-    }
+    public CoffeeMaker(){}
 
-    void pressOnOff(){
-        isOn = !isOn;
-    }
+    public boolean isOn(){ return isOn; }
 
-    void pressSelection(){
+    public void pressOnOff(){ isOn = !isOn; }
+
+    public void pressSelection(){
         if (isOn)
             coffee = (coffee == Coffee.NORMAL) ? Coffee.ESPRESSO : Coffee.NORMAL;
     }
 
-    String getSelection(){
+    public String getSelectionString(){
         String selection = "";
         switch(coffee){
             case NORMAL:
@@ -27,24 +26,16 @@ public class CoffeeMaker{
         return selection;
     }
 
-    void setAmount(int i){
+    public Coffee getSelection(){ return coffee; }
+
+    public void setAmount(int i){
         if (isOn && i <= maxAmount && i >= minAmount)
             amount = i;
     }
 
-    int getAmount(){
+    public int getAmount(){
         return amount;
     }
 
 }
 
-enum Coffee{
-    NORMAL,
-    ESPRESSO
-}
-
-/*
-class Coffee{
-    
-}
-*/

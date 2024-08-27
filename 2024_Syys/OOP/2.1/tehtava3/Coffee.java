@@ -1,0 +1,6 @@
+
+enum Coffee{
+    NORMAL,
+    ESPRESSO
+}
+

@@ -3,10 +3,10 @@ public class CarDriver {
     public static void main(String[] args) {
         Car myCar;
 
-        myCar = new Car("Toyota Corolla");
+        myCar = new Car("Toyota Corolla", 77, 160);
         myCar.fillTank();
 
-        for (int i = 0; i < 6; i++) {
+        for (int i = 0; i < 26; i++) {
             myCar.accelerate();
             System.out.println(myCar.getTypeName() + ": speed is "
                     + myCar.getSpeed() + " km/h");
@@ -38,7 +38,7 @@ public class CarDriver {
                         + "\nMaybe we are trying to set it to too high?");
             }
             
-            System.out.println("Cruise speed is set to: " + myCar.getTargetSpeed());
+            System.out.println("Cruise speed is set to: " + myCar.getTargetSpeed() + " car speed is " + myCar.getSpeed());
             if (myCar.getSpeed() == myCar.getTargetSpeed())
                 System.out.println("Cruising at set speed");
             else
