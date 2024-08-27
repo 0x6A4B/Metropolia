@@ -10,26 +10,27 @@
 Tehtävät 1,2,3 ja 4: tehty.
 Lisäsin opettajat invite collaborator -toiminnon kautta. Toivottavasti tein palautuksen oikein.
 
+
 #### Links:
 
-[Tehtävä 1](https://github.com/0x6A4B/Metropolia/blob/5f7fac3ed8781e28767cac49f7425ac7f6143077/2024_Syys/OOP/OOP_1_1_tehtava1.java)
+[[Tehtävä 1]](https://github.com/0x6A4B/Metropolia/blob/5f7fac3ed8781e28767cac49f7425ac7f6143077/2024_Syys/OOP/OOP_1_1_tehtava1.java)
 
-https://github.com/0x6A4B/Metropolia/blob/5f7fac3ed8781e28767cac49f7425ac7f6143077/2024_Syys/OOP/OOP_1_1_tehtava1.java
-
-
-[Tehtävä 2](https://github.com/0x6A4B/Metropolia/blob/5f7fac3ed8781e28767cac49f7425ac7f6143077/2024_Syys/OOP/OOP_1_1_tehtava2.java)
-
-https://github.com/0x6A4B/Metropolia/blob/5f7fac3ed8781e28767cac49f7425ac7f6143077/2024_Syys/OOP/OOP_1_1_tehtava2.java
+- https://github.com/0x6A4B/Metropolia/blob/5f7fac3ed8781e28767cac49f7425ac7f6143077/2024_Syys/OOP/OOP_1_1_tehtava1.java
 
 
-[Tehtävä 3](https://github.com/0x6A4B/Metropolia/blob/5f7fac3ed8781e28767cac49f7425ac7f6143077/2024_Syys/OOP/OOP_1_1_tehtava3.java)
+[[Tehtävä 2]](https://github.com/0x6A4B/Metropolia/blob/5f7fac3ed8781e28767cac49f7425ac7f6143077/2024_Syys/OOP/OOP_1_1_tehtava2.java)
 
-https://github.com/0x6A4B/Metropolia/blob/5f7fac3ed8781e28767cac49f7425ac7f6143077/2024_Syys/OOP/OOP_1_1_tehtava3.java
+- https://github.com/0x6A4B/Metropolia/blob/5f7fac3ed8781e28767cac49f7425ac7f6143077/2024_Syys/OOP/OOP_1_1_tehtava2.java
 
 
-[Tehtävä 4](https://github.com/0x6A4B/Metropolia/blob/5f7fac3ed8781e28767cac49f7425ac7f6143077/2024_Syys/OOP/OOP_1_1_tehtava4.java)
+[[Tehtävä 3]](https://github.com/0x6A4B/Metropolia/blob/5f7fac3ed8781e28767cac49f7425ac7f6143077/2024_Syys/OOP/OOP_1_1_tehtava3.java)
 
-https://github.com/0x6A4B/Metropolia/blob/5f7fac3ed8781e28767cac49f7425ac7f6143077/2024_Syys/OOP/OOP_1_1_tehtava4.java
+- https://github.com/0x6A4B/Metropolia/blob/5f7fac3ed8781e28767cac49f7425ac7f6143077/2024_Syys/OOP/OOP_1_1_tehtava3.java
+
+
+[[Tehtävä 4]](https://github.com/0x6A4B/Metropolia/blob/5f7fac3ed8781e28767cac49f7425ac7f6143077/2024_Syys/OOP/OOP_1_1_tehtava4.java)
+
+- https://github.com/0x6A4B/Metropolia/blob/5f7fac3ed8781e28767cac49f7425ac7f6143077/2024_Syys/OOP/OOP_1_1_tehtava4.java
 
 
 
@@ -37,21 +38,22 @@ https://github.com/0x6A4B/Metropolia/blob/5f7fac3ed8781e28767cac49f7425ac7f61430
 
 Tehtävät 1, 2 ja 3: tehty.
 
+
 #### Links
 
-[Tehtävä 1](https://github.com/0x6A4B/Metropolia/blob/5f7fac3ed8781e28767cac49f7425ac7f6143077/2024_Syys/OOP/OOP_1_2_tehtava1.java)
+[[Tehtävä 1]](https://github.com/0x6A4B/Metropolia/blob/5f7fac3ed8781e28767cac49f7425ac7f6143077/2024_Syys/OOP/OOP_1_2_tehtava1.java)
 
-https://github.com/0x6A4B/Metropolia/blob/5f7fac3ed8781e28767cac49f7425ac7f6143077/2024_Syys/OOP/OOP_1_2_tehtava1.java
-
-
-[Tehtävä 2](https://github.com/0x6A4B/Metropolia/blob/5f7fac3ed8781e28767cac49f7425ac7f6143077/2024_Syys/OOP/OOP_1_2_tehtava2.java)
-
-https://github.com/0x6A4B/Metropolia/blob/5f7fac3ed8781e28767cac49f7425ac7f6143077/2024_Syys/OOP/OOP_1_2_tehtava2.java
+- https://github.com/0x6A4B/Metropolia/blob/5f7fac3ed8781e28767cac49f7425ac7f6143077/2024_Syys/OOP/OOP_1_2_tehtava1.java
 
 
-[Tehtävä 3](https://github.com/0x6A4B/Metropolia/blob/5f7fac3ed8781e28767cac49f7425ac7f6143077/2024_Syys/OOP/OOP_1_2_tehtava3.java)
+[[Tehtävä 2]](https://github.com/0x6A4B/Metropolia/blob/5f7fac3ed8781e28767cac49f7425ac7f6143077/2024_Syys/OOP/OOP_1_2_tehtava2.java)
 
-https://github.com/0x6A4B/Metropolia/blob/5f7fac3ed8781e28767cac49f7425ac7f6143077/2024_Syys/OOP/OOP_1_2_tehtava3.java
+- https://github.com/0x6A4B/Metropolia/blob/5f7fac3ed8781e28767cac49f7425ac7f6143077/2024_Syys/OOP/OOP_1_2_tehtava2.java
+
+
+[[Tehtävä 3]](https://github.com/0x6A4B/Metropolia/blob/5f7fac3ed8781e28767cac49f7425ac7f6143077/2024_Syys/OOP/OOP_1_2_tehtava3.java)
+
+- https://github.com/0x6A4B/Metropolia/blob/5f7fac3ed8781e28767cac49f7425ac7f6143077/2024_Syys/OOP/OOP_1_2_tehtava3.java
 
 
 
@@ -59,26 +61,27 @@ https://github.com/0x6A4B/Metropolia/blob/5f7fac3ed8781e28767cac49f7425ac7f61430
 
 Tehtävät 1, 2, 3 ja 4: tehty.
 
+
 #### Links
 
-[Tehtävä 1](https://github.com/0x6A4B/Metropolia/blob/5f7fac3ed8781e28767cac49f7425ac7f6143077/2024_Syys/OOP/OOP_1_3_tehtava1.java)
+[[Tehtävä 1]](https://github.com/0x6A4B/Metropolia/blob/5f7fac3ed8781e28767cac49f7425ac7f6143077/2024_Syys/OOP/OOP_1_3_tehtava1.java)
 
-https://github.com/0x6A4B/Metropolia/blob/5f7fac3ed8781e28767cac49f7425ac7f6143077/2024_Syys/OOP/OOP_1_3_tehtava1.java
-
-
-[Tehtävä 2](https://github.com/0x6A4B/Metropolia/blob/5f7fac3ed8781e28767cac49f7425ac7f6143077/2024_Syys/OOP/OOP_1_3_tehtava2.java)
-
-https://github.com/0x6A4B/Metropolia/blob/5f7fac3ed8781e28767cac49f7425ac7f6143077/2024_Syys/OOP/OOP_1_3_tehtava2.java
+- https://github.com/0x6A4B/Metropolia/blob/5f7fac3ed8781e28767cac49f7425ac7f6143077/2024_Syys/OOP/OOP_1_3_tehtava1.java
 
 
-[Tehtävä 3](https://github.com/0x6A4B/Metropolia/blob/5f7fac3ed8781e28767cac49f7425ac7f6143077/2024_Syys/OOP/OOP_1_3_tehtava3.java)
+[[Tehtävä 2]](https://github.com/0x6A4B/Metropolia/blob/5f7fac3ed8781e28767cac49f7425ac7f6143077/2024_Syys/OOP/OOP_1_3_tehtava2.java)
 
-https://github.com/0x6A4B/Metropolia/blob/5f7fac3ed8781e28767cac49f7425ac7f6143077/2024_Syys/OOP/OOP_1_3_tehtava3.java
+- https://github.com/0x6A4B/Metropolia/blob/5f7fac3ed8781e28767cac49f7425ac7f6143077/2024_Syys/OOP/OOP_1_3_tehtava2.java
 
 
-[Tehtävä 4](https://github.com/0x6A4B/Metropolia/blob/5f7fac3ed8781e28767cac49f7425ac7f6143077/2024_Syys/OOP/OOP_1_3_tehtava4.java)
+[[Tehtävä 3]](https://github.com/0x6A4B/Metropolia/blob/5f7fac3ed8781e28767cac49f7425ac7f6143077/2024_Syys/OOP/OOP_1_3_tehtava3.java)
 
-https://github.com/0x6A4B/Metropolia/blob/5f7fac3ed8781e28767cac49f7425ac7f6143077/2024_Syys/OOP/OOP_1_3_tehtava4.java
+- https://github.com/0x6A4B/Metropolia/blob/5f7fac3ed8781e28767cac49f7425ac7f6143077/2024_Syys/OOP/OOP_1_3_tehtava3.java
+
+
+[[Tehtävä 4]](https://github.com/0x6A4B/Metropolia/blob/5f7fac3ed8781e28767cac49f7425ac7f6143077/2024_Syys/OOP/OOP_1_3_tehtava4.java)
+
+- https://github.com/0x6A4B/Metropolia/blob/5f7fac3ed8781e28767cac49f7425ac7f6143077/2024_Syys/OOP/OOP_1_3_tehtava4.java
 
 
 
@@ -86,23 +89,74 @@ https://github.com/0x6A4B/Metropolia/blob/5f7fac3ed8781e28767cac49f7425ac7f61430
 
 Tehtävät 1, 2 ja 3: tehty.
 
+
 #### Links
 
-[Tehtävä 1](https://github.com/0x6A4B/Metropolia/blob/5f7fac3ed8781e28767cac49f7425ac7f6143077/2024_Syys/OOP/OOP_1_4_tehtava1.java)
+[[Tehtävä 1]](https://github.com/0x6A4B/Metropolia/blob/5f7fac3ed8781e28767cac49f7425ac7f6143077/2024_Syys/OOP/OOP_1_4_tehtava1.java)
 
-https://github.com/0x6A4B/Metropolia/blob/5f7fac3ed8781e28767cac49f7425ac7f6143077/2024_Syys/OOP/OOP_1_4_tehtava1.java
-
-
-[Tehtävä 2](https://github.com/0x6A4B/Metropolia/blob/ca4a59268c639ee40965d39f9d26ec8122c16052/2024_Syys/OOP/OOP_1_4_tehtava2.java)
-
-https://github.com/0x6A4B/Metropolia/blob/ca4a59268c639ee40965d39f9d26ec8122c16052/2024_Syys/OOP/OOP_1_4_tehtava2.java
+- https://github.com/0x6A4B/Metropolia/blob/5f7fac3ed8781e28767cac49f7425ac7f6143077/2024_Syys/OOP/OOP_1_4_tehtava1.java
 
 
-[Tehtävä 3](https://github.com/0x6A4B/Metropolia/blob/5f7fac3ed8781e28767cac49f7425ac7f6143077/2024_Syys/OOP/OOP_1_4_tehtava3.java)
+[[Tehtävä 2]](https://github.com/0x6A4B/Metropolia/blob/ca4a59268c639ee40965d39f9d26ec8122c16052/2024_Syys/OOP/OOP_1_4_tehtava2.java)
 
-https://github.com/0x6A4B/Metropolia/blob/5f7fac3ed8781e28767cac49f7425ac7f6143077/2024_Syys/OOP/OOP_1_4_tehtava3.java
+- https://github.com/0x6A4B/Metropolia/blob/ca4a59268c639ee40965d39f9d26ec8122c16052/2024_Syys/OOP/OOP_1_4_tehtava2.java
+
+
+[[Tehtävä 3]](https://github.com/0x6A4B/Metropolia/blob/5f7fac3ed8781e28767cac49f7425ac7f6143077/2024_Syys/OOP/OOP_1_4_tehtava3.java)
+
+- https://github.com/0x6A4B/Metropolia/blob/5f7fac3ed8781e28767cac49f7425ac7f6143077/2024_Syys/OOP/OOP_1_4_tehtava3.java
 
 
 
-### 1.5
+### 2.1
 
+Tehtävät 1, 2, 3 ja 4 tehty
+
+
+#### Links
+
+[[Tehtävä 1]](https://github.com/0x6A4B/Metropolia/blob/e8bc05b1c57aa5cdb89be1cd89f2efb80044e62f/2024_Syys/OOP/2.1/OOP_2_1_tehtava1.java)
+
+- https://github.com/0x6A4B/Metropolia/blob/e8bc05b1c57aa5cdb89be1cd89f2efb80044e62f/2024_Syys/OOP/2.1/OOP_2_1_tehtava1.java
+
+
+[Tehtävä 2]
+
+- https://github.com/0x6A4B/Metropolia/blob/108bbe06cb9dfdf534b09fee380de8225fcc791f/2024_Syys/OOP/2.1/tehtava2/Car.java
+- https://github.com/0x6A4B/Metropolia/blob/108bbe06cb9dfdf534b09fee380de8225fcc791f/2024_Syys/OOP/2.1/tehtava2/CarDriver.java
+
+
+[Tehtävä 3]
+
+- https://github.com/0x6A4B/Metropolia/blob/108bbe06cb9dfdf534b09fee380de8225fcc791f/2024_Syys/OOP/2.1/tehtava3/Coffee.java
+- https://github.com/0x6A4B/Metropolia/blob/108bbe06cb9dfdf534b09fee380de8225fcc791f/2024_Syys/OOP/2.1/tehtava3/CoffeeMaker.java
+- https://github.com/0x6A4B/Metropolia/blob/108bbe06cb9dfdf534b09fee380de8225fcc791f/2024_Syys/OOP/2.1/tehtava3/Test.java
+
+
+[Tehtävä 4]
+
+- https://github.com/0x6A4B/Metropolia/blob/108bbe06cb9dfdf534b09fee380de8225fcc791f/2024_Syys/OOP/2.1/tehtava4/Car.java
+- https://github.com/0x6A4B/Metropolia/blob/108bbe06cb9dfdf534b09fee380de8225fcc791f/2024_Syys/OOP/2.1/tehtava4/CarDriver.java
+
+
+
+### 2.2
+
+Tehtävät
+
+
+#### Links
+
+[Tehtävä 1]
+
+-
+
+
+[Tehtävä 2]
+
+-
+
+
+[Tehtävä 3]
+
+-
