@@ -10,16 +10,16 @@ public class Test{
         }
 
         // add an event but do not stamp it, so no event time
-        // it is also an undefined event
+        // it is also an undefined event purely for recognizability
         // Using this to test the sorting based on event time and not time of adding
-        // or id etc.
+        // or id etc. (proves the compareTo works and sorts by event time)
         list.addEvent(new Event());
         // stamp the first event with a number obviously shifting the event to last
         list.peekEvent().setEventTime(6666666666666666L);
 
 
         for (int i = 0; i < events; i++){
-            list.addEvent(new Event((i%2==0 ? EventType.ARRIVAL : EventType.EXIT), true));
+            list.addEvent(new Event(true));
         }
 
         // remove first event on the queue based on event time because priority queue
