@@ -11,6 +11,7 @@ public class Event implements Comparable<Event>{
 
 
     public long getEventTime(){ return eventTime; }
+    public void setEventTime(long l){ eventTime = l; } // this is only for testing/demonstration
 
     public void stampEvent(){
         eventTime = System.nanoTime();
@@ -20,8 +21,9 @@ public class Event implements Comparable<Event>{
 
     public EventType getEventType(){ return eventType; }
 
+    @Override
     public int compareTo(Event e){
-        return (eventTime < e.eventTime) ? -1 : (eventTime > e.eventTime) ? 1 : 0;
+        return (eventTime < e.eventTime) ? -1 : ((eventTime > e.eventTime) ? 1 : 0);
     }
 
     public String toString(){ return "Event " + id + " of type " + eventType.toString() + " with event time: " + eventTime; }
