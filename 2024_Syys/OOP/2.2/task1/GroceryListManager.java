@@ -22,6 +22,8 @@ public class GroceryListManager{
         System.out.println("Updated grocerylist:");
         list.displayList();
 
+        System.out.println("Is \"Milk\" in the grocery list? " + list.checkItem("Milk"));
+
 
     }
 
