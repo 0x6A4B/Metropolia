@@ -62,10 +62,26 @@ public class Library{
         return bb;
     }
 
-    public Book getBook(String t){
-        for (Book b : books)
-            if (b.getTitle().equals(t))
-                return b;
+    // user part
+    ArrayList<User> users = new ArrayList<>();
+    
+    public boolean createUser(String name, int age){ return users.add(new User(name, age)); }
+    //public User readUser(int id){}
+    public ArrayList<Book> getBorrowed(String name){
+        for (User u : users)
+            if (u.getName().equals(name))
+                return getBorrowed(u.getId());
         return null;
     }
+
+    public ArrayList<Book> getBorrowed(int id){
+        for (User u : users)
+            if (u.getId() == id)
+                return u.getBorrowed();
+        return null;
+    }
+
+    public ArrayList<User> getSuspects(){ return users; }
+    
+
 }

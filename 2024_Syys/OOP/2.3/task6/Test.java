@@ -64,31 +64,9 @@ public class Test{
                         ? "available" : "borrowed by someone (YOU!!!!) ( -__- )")));
 
 
-        // reviews!!
-        //
-        int bookNr = 5;
-        Book rb[] = new Book[bookNr];
-        String[] reviews = { "Excellent", "Ok", "Poor", "Shite", "Worse than shite" };
-
-        // let's create a list of books for reviewing
-        do{
-            Book bok = null;
-            //rb[bookNr-1] 
-            bok = lib.getBook(getRand(titleS) + " " + getRand(titleL));
-            if (bok != null){
-                bookNr--;
-                bok.setRating(Math.random()*5);
-                int revs = (int)(Math.random()*100.0);
-                for (int j = 0; j < revs; j++)
-                    bok.addReview(getRand(reviews));
-            }
-        }while(bookNr > 0);
-
-        System.out.printf("\n\n\nAverage book rating: %.2f \nMost reviews: %s\n"
-                , lib.getAverageBookRating(), lib.getMostReviewedBook().getTitle());
+        // libary
+        for (int i = 0; 
         
-
-
     }
 
     private static String getRand(String[] s){

@@ -5,7 +5,7 @@ public class Book{
     private String title = null;
     private String author = null;
     private ArrayList<String> reviews;
-    private double rating = 0;
+    private double rating = -1;
    
 //    public Book(){}
     public Book(int i, String s, String t){
