@@ -1,4 +1,6 @@
 import java.util.ArrayList;
+import java.util.HashMap;
+//import java.util.Map;
 
 public class Library{
     ArrayList<Book> books = new ArrayList<>();
@@ -63,25 +65,45 @@ public class Library{
     }
 
     // user part
-    ArrayList<User> users = new ArrayList<>();
+    //ArrayList<User> users = new ArrayList<>();
+    HashMap<String, User> users = new HashMap<>();
     
-    public boolean createUser(String name, int age){ return users.add(new User(name, age)); }
+    public void createUser(String name, int age){ users.put(name, new User(name, age)); }
     //public User readUser(int id){}
     public ArrayList<Book> getBorrowed(String name){
-        for (User u : users)
+        if (users.containsKey(name))
+            return users.get(name).getBorrowed();    
+        /*for (User u : users.)
             if (u.getName().equals(name))
-                return getBorrowed(u.getId());
+                return getBorrowed(u.getId());*/
         return null;
     }
-
+    /*
     public ArrayList<Book> getBorrowed(int id){
         for (User u : users)
             if (u.getId() == id)
                 return u.getBorrowed();
         return null;
+    }*/
+
+    public HashMap<String, User> getSuspects(){ return users; }
+
+            // 1: success or -1: no such book
+            // -2: no such user
+    public int userBorrows(String name, String b){
+        if (users.containsKey(name))
+            return ((users.get(name).borrowBook(borrowBook(b))) ? 1 : -1);
+        return -2;
     }
 
-    public ArrayList<User> getSuspects(){ return users; }
-    
+    public int userReturns(String name, Book b){
+        if (users.containsKey(name))
+            return ((users.get(name).returnBook(b)) ? 1 : -1);
+        return -2; 
+    }
+   
+    // to get just some books that are available for test/demonstration
+    // returns title to use in borrowing as per original definition
+    public String getSuggestion(){ return books.get(0).getTitle(); }
 
 }

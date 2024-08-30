@@ -1,7 +1,10 @@
+import java.util.HashMap;
+import java.util.ArrayList;
+
 public class Test{
 
     public static void main(String[] arr){
-        int runs = 10;
+        int runs = 30;
         int[] years = { 1991, 1982, 2007, 2020, 1888, 2240, 2010, 1999, 1938, 2002 };
         String[] first = { "John", "Jack", "Piedro", "Constantin", "Mary", "Anne", "Jill" };
         String[] last = { "Johnsson", "Jacksson", "el Piedronsson", "Constantinsson",
@@ -65,12 +68,63 @@ public class Test{
 
 
         // libary
+        int __ = 10;
         for (int i = 0; i < 10; i++){
-            //
-            lib.createUser("UniqueVonPerson" + i, i*10);
-
+            System.out.print(Character.toString(10) + Character.toString(13));
+            for (int k = (__-1)/2; k >= 0; k--)
+                System.out.print(" ");
+            for (int j = i; j >= 0; j--)
+                System.out.print("*");
+            i++; __--; __--;
         }
-        
+        System.out.println("\n\nUSER PART!!!\n\n");
+        for (int i = 0; i < 10; i++){
+            // create user with name and age
+            String nomen = "UniqueVonPerson_" + i;
+            lib.createUser(nomen, i*10);
+            lib.userBorrows(nomen, lib.getSuggestion());
+            lib.userBorrows(nomen, lib.getSuggestion());
+        }
+       
+        // now let's check users and their borrows
+        HashMap<String, User> users = lib.getSuspects();
+        ArrayList<Book> books = null;
+        for (String u : users.keySet()){
+            System.out.printf("\nUser: %s has borrowed:\n", u);
+            books = lib.getBorrowed(u);
+            if (books != null)
+                //for (Book b : books){
+                for (int i = books.size()-1; i >= 0; i--){
+                    System.out.println(books.get(i).getAuthor() + " - "
+                            + books.get(i).getTitle());
+                    int ret = lib.userReturns(u, books.get(i));
+                    System.out.println("\tReturned: "
+                            + (((ret) == 1) ? "Succesfully" : (ret == -2) ? "What user"
+                                : "What book"));
+
+                    /*             
+                    System.out.println(b.getAuthor() + " - " + b.getTitle());
+                    int ret = lib.userReturns(u, b);
+                    System.out.println("Returned: "
+                            + (((ret) == 1) ? "Succesfully" : (ret == -2) ? "What user"
+                                : "What book"));
+                      */           
+                }
+        }
+
+        // let's check errors
+        for (String u : users.keySet()){
+            int ret = lib.userBorrows(u, "aapiskukko");
+            System.out.printf("\n\nUser: " + u + " borrows the aapiskukko: %s"
+                    , ((ret == 1) ? "SUCCESS!" : (ret == -1) ? "NO SUCH BOOK!"
+                        : "NO SUCH USER"));
+            break;
+        }
+
+        int ret = lib.userBorrows("Idi Amin", "aapiskukko");
+        System.out.printf("\n\nUser: Idi Amin borrows the aapiskukko: %s"
+                , ((ret == 1) ? "SUCCESS!" : (ret == -1) ? "NO SUCH BOOK!"
+                    : "NO SUCH USER\n"));
     }
 
     private static String getRand(String[] s){
