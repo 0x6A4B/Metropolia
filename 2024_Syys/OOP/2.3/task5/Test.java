@@ -66,7 +66,7 @@ public class Test{
 
         // reviews!!
         //
-        int bookNr = 5;
+        int bookNr = runs;
         Book rb[] = new Book[bookNr];
         String[] reviews = { "Excellent", "Ok", "Poor", "Shite", "Worse than shite" };
 
@@ -77,7 +77,7 @@ public class Test{
             bok = lib.getBook(getRand(titleS) + " " + getRand(titleL));
             if (bok != null){
                 bookNr--;
-                bok.setRating(Math.random()*5);
+                bok.setRating(Math.random()*10);
                 int revs = (int)(Math.random()*100.0);
                 for (int j = 0; j < revs; j++)
                     bok.addReview(getRand(reviews));
