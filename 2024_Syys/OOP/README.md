@@ -149,21 +149,75 @@ Tehtävät 1, 2, 3, 4 ja 5 tehty
 
 [Tehtävä 1]
 
-- 
+- https://github.com/0x6A4B/Metropolia/blob/9209fda41c4a08447a335a17b49ab0bd7fc7bd14/2024_Syys/OOP/2.2/task1/GroceryListManager.java
 
 
 [Tehtävä 2]
 
--
+- https://github.com/0x6A4B/Metropolia/blob/9209fda41c4a08447a335a17b49ab0bd7fc7bd14/2024_Syys/OOP/2.2/task2/GroceryListManager.java
 
 
 [Tehtävä 3]
 
--
+- https://github.com/0x6A4B/Metropolia/blob/9209fda41c4a08447a335a17b49ab0bd7fc7bd14/2024_Syys/OOP/2.2/task3/GroceryListManager.java
+
+[Tehtävä 4]
+
+- https://github.com/0x6A4B/Metropolia/blob/9209fda41c4a08447a335a17b49ab0bd7fc7bd14/2024_Syys/OOP/2.2/task4/GroceryListManager.java
+
+[Tehtävä 5]
+
+- https://github.com/0x6A4B/Metropolia/blob/9209fda41c4a08447a335a17b49ab0bd7fc7bd14/2024_Syys/OOP/2.2/task5/GroceryListManager.java
 
 
 
 ### 2.3
+
+Tehtävät 1, 2, 3, 4, 5 ja 6 tehty
+
+
+#### Links
+
+[Tehtävä 1]
+
+- https://github.com/0x6A4B/Metropolia/blob/9209fda41c4a08447a335a17b49ab0bd7fc7bd14/2024_Syys/OOP/2.3/task1/Book.java
+- https://github.com/0x6A4B/Metropolia/blob/9209fda41c4a08447a335a17b49ab0bd7fc7bd14/2024_Syys/OOP/2.3/task1/Library.java
+- https://github.com/0x6A4B/Metropolia/blob/9209fda41c4a08447a335a17b49ab0bd7fc7bd14/2024_Syys/OOP/2.3/task1/Test.java
+
+[Tehtävä 2]
+
+- https://github.com/0x6A4B/Metropolia/blob/9209fda41c4a08447a335a17b49ab0bd7fc7bd14/2024_Syys/OOP/2.3/task2/Book.java
+- https://github.com/0x6A4B/Metropolia/blob/9209fda41c4a08447a335a17b49ab0bd7fc7bd14/2024_Syys/OOP/2.3/task2/Library.java
+- https://github.com/0x6A4B/Metropolia/blob/9209fda41c4a08447a335a17b49ab0bd7fc7bd14/2024_Syys/OOP/2.3/task2/Test.java
+
+[Tehtävä 3]
+
+- https://github.com/0x6A4B/Metropolia/blob/9209fda41c4a08447a335a17b49ab0bd7fc7bd14/2024_Syys/OOP/2.3/task3/Book.java
+- https://github.com/0x6A4B/Metropolia/blob/9209fda41c4a08447a335a17b49ab0bd7fc7bd14/2024_Syys/OOP/2.3/task3/Library.java
+- https://github.com/0x6A4B/Metropolia/blob/9209fda41c4a08447a335a17b49ab0bd7fc7bd14/2024_Syys/OOP/2.3/task3/Test.java
+
+[Tehtävä 4]
+
+- https://github.com/0x6A4B/Metropolia/blob/9209fda41c4a08447a335a17b49ab0bd7fc7bd14/2024_Syys/OOP/2.3/task4/Book.java
+- https://github.com/0x6A4B/Metropolia/blob/9209fda41c4a08447a335a17b49ab0bd7fc7bd14/2024_Syys/OOP/2.3/task4/Library.java
+- https://github.com/0x6A4B/Metropolia/blob/9209fda41c4a08447a335a17b49ab0bd7fc7bd14/2024_Syys/OOP/2.3/task4/Test.java
+
+[Tehtävä 5]
+
+- https://github.com/0x6A4B/Metropolia/blob/9209fda41c4a08447a335a17b49ab0bd7fc7bd14/2024_Syys/OOP/2.3/task5/Book.java
+- https://github.com/0x6A4B/Metropolia/blob/9209fda41c4a08447a335a17b49ab0bd7fc7bd14/2024_Syys/OOP/2.3/task5/Library.java
+- https://github.com/0x6A4B/Metropolia/blob/9209fda41c4a08447a335a17b49ab0bd7fc7bd14/2024_Syys/OOP/2.3/task5/Test.java
+
+[Tehtävä 6]
+
+- https://github.com/0x6A4B/Metropolia/blob/9209fda41c4a08447a335a17b49ab0bd7fc7bd14/2024_Syys/OOP/2.3/task6/Book.java
+- https://github.com/0x6A4B/Metropolia/blob/9209fda41c4a08447a335a17b49ab0bd7fc7bd14/2024_Syys/OOP/2.3/task6/Library.java
+- https://github.com/0x6A4B/Metropolia/blob/9209fda41c4a08447a335a17b49ab0bd7fc7bd14/2024_Syys/OOP/2.3/task6/Test.java
+- https://github.com/0x6A4B/Metropolia/blob/9209fda41c4a08447a335a17b49ab0bd7fc7bd14/2024_Syys/OOP/2.3/task6/User.java
+
+
+
+### 2.4
 
 Tehtävät
 
@@ -183,11 +237,26 @@ Tehtävät
 [Tehtävä 3]
 
 -
-
-
-
-
 ### x.x
+
+Tehtävät
+
+
+#### Links
+
+[Tehtävä 1]
+
+-
+
+
+[Tehtävä 2]
+
+-
+
+
+[Tehtävä 3]
+
+-
 
 Tehtävät
 
