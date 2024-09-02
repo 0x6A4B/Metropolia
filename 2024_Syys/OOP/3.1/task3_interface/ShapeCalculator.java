@@ -43,6 +43,22 @@ public class ShapeCalculator{
                     Constructor<?> daveTheBuilder = santaClaus.getConstructor();
                     Object obj = daveTheBuilder.newInstance();
                     createdShapes[i] = (Shape) obj;
+                    // Can't cast to interface?!?! WHYYYY?
+                    // Because I didn't implement on all classes... *sigh*
+                    //obj.getClass within switch statement is a preview feature...
+                    /*
+                    switch(shape){
+                        case "Circle":
+                            createdShapes[i] = (Circle) obj;
+                            break;
+                        case "Rectangle":
+                            createdShapes[i] = (Rectangle) obj;
+                            break;
+                        case "Triangle":
+                            createdShapes[i] = (Triangle) obj;
+                            break;
+
+                    }*/
                 }catch(ClassNotFoundException | InstantiationException
                         | IllegalAccessException | InvocationTargetException
                         | NoSuchMethodException e){

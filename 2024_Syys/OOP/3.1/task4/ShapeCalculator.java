@@ -14,6 +14,8 @@ public class ShapeCalculator{
     public static void main(String []args){
         int runs = 5, nrOfShapes = 10;
         String[] shapes = { "Circle", "Rectangle", "Triangle" };
+        String[] colours = { "Red", "It's still red but darker"
+            , "Maybe a bit lighter red but still red" };
 
         try{
             runs = (args.length > 0) ? Integer.parseInt(args[0]) : runs;
@@ -43,6 +45,7 @@ public class ShapeCalculator{
                     Constructor<?> daveTheBuilder = santaClaus.getConstructor();
                     Object obj = daveTheBuilder.newInstance();
                     createdShapes[i] = (Shape) obj;
+                    createdShapes[i].setColor(getRand(colours));
                 }catch(ClassNotFoundException | InstantiationException
                         | IllegalAccessException | InvocationTargetException
                         | NoSuchMethodException e){
@@ -52,9 +55,10 @@ public class ShapeCalculator{
             }
 
             for (Shape s : createdShapes)
-                System.out.printf("Shape: %s \t%s: %.1f \tarea: %.1f\n", s.getClass()
+                System.out.printf("Shape: %s \t%s: %.1f \tarea: %.1f\nColour: %s\n"
+                        , s.getClass()
                         , (s.getClass().toString().equals("class Circle") ? "radius" : "side")
-                        , createRando(), s.calculateArea(rando));
+                        , createRando(), s.calculateArea(rando), s.getColor());
 
 
             System.out.print(runs + " - \n");

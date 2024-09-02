@@ -2,6 +2,9 @@ public class Circle extends Shape{
 
     private double r;
 
+    public Circle(){};
+    public Circle(String colour){ super(colour); }
+
     public double calculateArea(double r){ return Math.PI*(r*r); }
     public double calculateArea(){ return Math.PI * (r*r); }
     public void setRadius(double r){ this.r = r; }

@@ -10,6 +10,9 @@ public class Rectangle extends Shape{
 
     private double side;
 
+    public Rectangle(){}
+    public Rectangle(String colour){ super(colour); }
+
     public double calculateArea(double side){ return side*side; }
     public double calculateArea(){ return side*side; }
     public void setSide(double side){ this.side = side; }

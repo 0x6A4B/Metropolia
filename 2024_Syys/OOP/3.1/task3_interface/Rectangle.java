@@ -1,4 +1,4 @@
-public class Rectangle extends Shape{
+public class Rectangle implements Shape{
 
     // gets too complicated for dynamic instantiation if there are two parameters
     // for now I'll just use one parameter and rectangle is just a square
@@ -16,9 +16,5 @@ public class Rectangle extends Shape{
     public double getSide(){ return side; }
     
 
-    @Override
-    public void setColor(String color){ this.color = color; }
-    @Override
-    public String getColor(){ return color; }
 
 }
