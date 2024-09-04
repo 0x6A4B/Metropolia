@@ -1,8 +1,5 @@
 public interface Vehicle{
 
-//    Boolean running = null;
-//    String color = null, fuel = null;
-
     public String start();
     public String stop();
     public String getInfo();
