@@ -217,26 +217,44 @@ Tehtävät 1, 2, 3, 4, 5 ja 6 tehty
 
 
 
-### 2.4
+### 3.1
 
-Tehtävät
+Tehtävät 1, 2, 3 ja 4 tehty
 
 
 #### Links
 
 [Tehtävä 1]
 
--
+- https://github.com/0x6A4B/Metropolia/blob/c1752f2ef585e95fa7d12f00075e67df73ab60e6/2024_Syys/OOP/3.1/task1/Car.java
+- https://github.com/0x6A4B/Metropolia/blob/c1752f2ef585e95fa7d12f00075e67df73ab60e6/2024_Syys/OOP/3.1/task1/CarDriver.java
+- https://github.com/0x6A4B/Metropolia/blob/c1752f2ef585e95fa7d12f00075e67df73ab60e6/2024_Syys/OOP/3.1/task1/SportsCar.java
 
 
 [Tehtävä 2]
 
--
+- https://github.com/0x6A4B/Metropolia/blob/c1752f2ef585e95fa7d12f00075e67df73ab60e6/2024_Syys/OOP/3.1/task2/Bus.java
+- https://github.com/0x6A4B/Metropolia/blob/c1752f2ef585e95fa7d12f00075e67df73ab60e6/2024_Syys/OOP/3.1/task2/Car.java
 
 
 [Tehtävä 3]
 
--
+- https://github.com/0x6A4B/Metropolia/blob/c1752f2ef585e95fa7d12f00075e67df73ab60e6/2024_Syys/OOP/3.1/task3/Circle.java
+- https://github.com/0x6A4B/Metropolia/blob/c1752f2ef585e95fa7d12f00075e67df73ab60e6/2024_Syys/OOP/3.1/task3/Shape.java
+- https://github.com/0x6A4B/Metropolia/blob/c1752f2ef585e95fa7d12f00075e67df73ab60e6/2024_Syys/OOP/3.1/task3/Rectangle.java
+- https://github.com/0x6A4B/Metropolia/blob/c1752f2ef585e95fa7d12f00075e67df73ab60e6/2024_Syys/OOP/3.1/task3/Triangle.java
+- https://github.com/0x6A4B/Metropolia/blob/c1752f2ef585e95fa7d12f00075e67df73ab60e6/2024_Syys/OOP/3.1/task3/ShapeCalculator.java
+
+[Tehtävä 4]
+
+- https://github.com/0x6A4B/Metropolia/blob/c1752f2ef585e95fa7d12f00075e67df73ab60e6/2024_Syys/OOP/3.1/task4/Circle.java
+- https://github.com/0x6A4B/Metropolia/blob/c1752f2ef585e95fa7d12f00075e67df73ab60e6/2024_Syys/OOP/3.1/task4/Triangle.java
+- https://github.com/0x6A4B/Metropolia/blob/c1752f2ef585e95fa7d12f00075e67df73ab60e6/2024_Syys/OOP/3.1/task4/Rectangle.java
+- https://github.com/0x6A4B/Metropolia/blob/c1752f2ef585e95fa7d12f00075e67df73ab60e6/2024_Syys/OOP/3.1/task4/Shape.java
+- https://github.com/0x6A4B/Metropolia/blob/c1752f2ef585e95fa7d12f00075e67df73ab60e6/2024_Syys/OOP/3.1/task4/ShapeCalculator.java
+
+
+
 ### x.x
 
 Tehtävät
