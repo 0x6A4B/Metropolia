@@ -87,6 +87,12 @@ public class Main {
             System.out.printf("User: %s\n", m.toString());
         });
 
+        // testing our own exception
+        try {
+            library.borrowBook("jaska jokunen", "aapiskukko");
+        }catch (MemberNotFoundException m) {
+            System.out.println(m.toString());
+        }
 
 
     }
