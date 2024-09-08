@@ -21,6 +21,14 @@ public class VehicleDemo{
             v.charge(99);
             System.out.println(AnsiColor.BLUE + "Let's fill the tank!" + AnsiColor.RESET);
             v.fill(99);
+
+            //fuel efficiency
+            double fuelUsed = (int)(Math.random()*10000*100)/100.0;
+            double kmTravelled = (int)(Math.random()*1000*100)/100.0;
+            v.calculateFuelEfficiency(fuelUsed, kmTravelled);
+            System.out.println(AnsiColor.CYAN + "Fuel used: " + fuelUsed + "\n"
+                    + "Km travelled: " + kmTravelled + "\n"
+                    + v.getFuelEfficiency() + AnsiColor.RESET);
         }
 
 
