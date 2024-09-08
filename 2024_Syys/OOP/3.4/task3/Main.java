@@ -32,7 +32,7 @@ public class Main {
             System.out.println(e[i].getCourse().getCourseName() + " - " + e[i].getStudent().getName());
         }
 
-        try (ObjectOutputStream o = new ObjectOutputStream(new FileOutputStream("object.dat"))){
+        try (ObjectOutputStream o = new ObjectOutputStream(new FileOutputStream("enrollments.ser"))){
             for (int i = 0; i < e.length; i++)
                 o.writeObject(e[i]);
         }catch (IOException err){
@@ -43,7 +43,7 @@ public class Main {
 
         ArrayList<Enrollment> readE = new ArrayList<>();
 
-        try (ObjectInputStream o = new ObjectInputStream(new FileInputStream("object.dat"))){
+        try (ObjectInputStream o = new ObjectInputStream(new FileInputStream("enrollments.ser"))){
             while (true)
                 readE.add((Enrollment) o.readObject());
         }catch (EOFException err){
