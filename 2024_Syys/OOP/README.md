@@ -245,6 +245,7 @@ Tehtävät 1, 2, 3 ja 4 tehty
 - https://github.com/0x6A4B/Metropolia/blob/c1752f2ef585e95fa7d12f00075e67df73ab60e6/2024_Syys/OOP/3.1/task3/Triangle.java
 - https://github.com/0x6A4B/Metropolia/blob/c1752f2ef585e95fa7d12f00075e67df73ab60e6/2024_Syys/OOP/3.1/task3/ShapeCalculator.java
 
+
 [Tehtävä 4]
 
 - https://github.com/0x6A4B/Metropolia/blob/c1752f2ef585e95fa7d12f00075e67df73ab60e6/2024_Syys/OOP/3.1/task4/Circle.java
@@ -252,6 +253,98 @@ Tehtävät 1, 2, 3 ja 4 tehty
 - https://github.com/0x6A4B/Metropolia/blob/c1752f2ef585e95fa7d12f00075e67df73ab60e6/2024_Syys/OOP/3.1/task4/Rectangle.java
 - https://github.com/0x6A4B/Metropolia/blob/c1752f2ef585e95fa7d12f00075e67df73ab60e6/2024_Syys/OOP/3.1/task4/Shape.java
 - https://github.com/0x6A4B/Metropolia/blob/c1752f2ef585e95fa7d12f00075e67df73ab60e6/2024_Syys/OOP/3.1/task4/ShapeCalculator.java
+
+
+
+### 3.2
+
+Tehtävät 1, 2, 3 ja 4 tehty
+
+
+#### Links
+
+[Tehtävä 1](https://github.com/0x6A4B/Metropolia/tree/aec839aec0779e3b2aba57f7f9d0bd2c64328c3a/2024_Syys/OOP/3.2/task1)
+
+- https://github.com/0x6A4B/Metropolia/blob/aec839aec0779e3b2aba57f7f9d0bd2c64328c3a/2024_Syys/OOP/3.2/task1/Bus.java
+- https://github.com/0x6A4B/Metropolia/blob/aec839aec0779e3b2aba57f7f9d0bd2c64328c3a/2024_Syys/OOP/3.2/task1/Car.java
+- https://github.com/0x6A4B/Metropolia/blob/aec839aec0779e3b2aba57f7f9d0bd2c64328c3a/2024_Syys/OOP/3.2/task1/Motorcycle.java
+- https://github.com/0x6A4B/Metropolia/blob/aec839aec0779e3b2aba57f7f9d0bd2c64328c3a/2024_Syys/OOP/3.2/task1/Vehicle.java
+- https://github.com/0x6A4B/Metropolia/blob/aec839aec0779e3b2aba57f7f9d0bd2c64328c3a/2024_Syys/OOP/3.2/task1/VehicleDemo.java
+
+
+[Tehtävä 2](https://github.com/0x6A4B/Metropolia/tree/aec839aec0779e3b2aba57f7f9d0bd2c64328c3a/2024_Syys/OOP/3.2/task2)
+
+- https://github.com/0x6A4B/Metropolia/blob/aec839aec0779e3b2aba57f7f9d0bd2c64328c3a/2024_Syys/OOP/3.2/task2/AbstractVehicle.java
+- https://github.com/0x6A4B/Metropolia/blob/aec839aec0779e3b2aba57f7f9d0bd2c64328c3a/2024_Syys/OOP/3.2/task2/Bus.java
+- https://github.com/0x6A4B/Metropolia/blob/aec839aec0779e3b2aba57f7f9d0bd2c64328c3a/2024_Syys/OOP/3.2/task2/Car.java
+- https://github.com/0x6A4B/Metropolia/blob/aec839aec0779e3b2aba57f7f9d0bd2c64328c3a/2024_Syys/OOP/3.2/task2/Motorcycle.java
+- https://github.com/0x6A4B/Metropolia/blob/aec839aec0779e3b2aba57f7f9d0bd2c64328c3a/2024_Syys/OOP/3.2/task2/Vehicle.java
+- https://github.com/0x6A4B/Metropolia/blob/aec839aec0779e3b2aba57f7f9d0bd2c64328c3a/2024_Syys/OOP/3.2/task2/VehicleDemo.java
+
+
+[Tehtävä 3](https://github.com/0x6A4B/Metropolia/tree/aec839aec0779e3b2aba57f7f9d0bd2c64328c3a/2024_Syys/OOP/3.2/task3)
+
+- https://github.com/0x6A4B/Metropolia/blob/aec839aec0779e3b2aba57f7f9d0bd2c64328c3a/2024_Syys/OOP/3.2/task3/AbstractVehicle.java
+- https://github.com/0x6A4B/Metropolia/blob/aec839aec0779e3b2aba57f7f9d0bd2c64328c3a/2024_Syys/OOP/3.2/task3/AnsiColor.java
+- https://github.com/0x6A4B/Metropolia/blob/aec839aec0779e3b2aba57f7f9d0bd2c64328c3a/2024_Syys/OOP/3.2/task3/Bus.java
+- https://github.com/0x6A4B/Metropolia/blob/aec839aec0779e3b2aba57f7f9d0bd2c64328c3a/2024_Syys/OOP/3.2/task3/Car.java
+- https://github.com/0x6A4B/Metropolia/blob/aec839aec0779e3b2aba57f7f9d0bd2c64328c3a/2024_Syys/OOP/3.2/task3/ElectricCar.java
+- https://github.com/0x6A4B/Metropolia/blob/aec839aec0779e3b2aba57f7f9d0bd2c64328c3a/2024_Syys/OOP/3.2/task3/ElectricMotorcycle.java
+- https://github.com/0x6A4B/Metropolia/blob/aec839aec0779e3b2aba57f7f9d0bd2c64328c3a/2024_Syys/OOP/3.2/task3/ElectricVehicle.java
+- https://github.com/0x6A4B/Metropolia/blob/aec839aec0779e3b2aba57f7f9d0bd2c64328c3a/2024_Syys/OOP/3.2/task3/Motorcycle.java
+- https://github.com/0x6A4B/Metropolia/blob/aec839aec0779e3b2aba57f7f9d0bd2c64328c3a/2024_Syys/OOP/3.2/task3/Vehicle.java
+- https://github.com/0x6A4B/Metropolia/blob/aec839aec0779e3b2aba57f7f9d0bd2c64328c3a/2024_Syys/OOP/3.2/task3/VehicleDemo.java
+
+
+[Tehtävä 4](https://github.com/0x6A4B/Metropolia/tree/aec839aec0779e3b2aba57f7f9d0bd2c64328c3a/2024_Syys/OOP/3.2/task4)
+
+- https://github.com/0x6A4B/Metropolia/blob/aec839aec0779e3b2aba57f7f9d0bd2c64328c3a/2024_Syys/OOP/3.2/task4/AbstractVehicle.java
+- https://github.com/0x6A4B/Metropolia/blob/aec839aec0779e3b2aba57f7f9d0bd2c64328c3a/2024_Syys/OOP/3.2/task4/AnsiColor.java
+- https://github.com/0x6A4B/Metropolia/blob/aec839aec0779e3b2aba57f7f9d0bd2c64328c3a/2024_Syys/OOP/3.2/task4/Bus.java
+- https://github.com/0x6A4B/Metropolia/blob/aec839aec0779e3b2aba57f7f9d0bd2c64328c3a/2024_Syys/OOP/3.2/task4/Car.java
+- https://github.com/0x6A4B/Metropolia/blob/aec839aec0779e3b2aba57f7f9d0bd2c64328c3a/2024_Syys/OOP/3.2/task4/ElectricCar.java
+- https://github.com/0x6A4B/Metropolia/blob/aec839aec0779e3b2aba57f7f9d0bd2c64328c3a/2024_Syys/OOP/3.2/task4/ElectricMotorcycle.java
+- https://github.com/0x6A4B/Metropolia/blob/aec839aec0779e3b2aba57f7f9d0bd2c64328c3a/2024_Syys/OOP/3.2/task4/ElectricVehicle.java
+- https://github.com/0x6A4B/Metropolia/blob/aec839aec0779e3b2aba57f7f9d0bd2c64328c3a/2024_Syys/OOP/3.2/task4/Motorcycle.java
+- https://github.com/0x6A4B/Metropolia/blob/aec839aec0779e3b2aba57f7f9d0bd2c64328c3a/2024_Syys/OOP/3.2/task4/Vehicle.java
+- https://github.com/0x6A4B/Metropolia/blob/aec839aec0779e3b2aba57f7f9d0bd2c64328c3a/2024_Syys/OOP/3.2/task4/VehicleDemo.java
+
+
+
+### 3.3
+
+Tehtävät 1, 2 ja 3 tehty
+
+
+#### Links
+
+[Tehtävä 1](https://github.com/0x6A4B/Metropolia/tree/aec839aec0779e3b2aba57f7f9d0bd2c64328c3a/2024_Syys/OOP/3.3/task1)
+
+- https://github.com/0x6A4B/Metropolia/blob/aec839aec0779e3b2aba57f7f9d0bd2c64328c3a/2024_Syys/OOP/3.3/task1/BankAccount.java
+
+
+[Tehtävä 2](https://github.com/0x6A4B/Metropolia/tree/9f9e006035a28b75a62301e2c39f43a8d4848a6b/2024_Syys/OOP/3.3/task2)
+
+- https://github.com/0x6A4B/Metropolia/blob/9f9e006035a28b75a62301e2c39f43a8d4848a6b/2024_Syys/OOP/3.3/task2/library/Main.java
+- https://github.com/0x6A4B/Metropolia/blob/aec839aec0779e3b2aba57f7f9d0bd2c64328c3a/2024_Syys/OOP/3.3/task2/library/system/AnsiColor.java
+- https://github.com/0x6A4B/Metropolia/blob/aec839aec0779e3b2aba57f7f9d0bd2c64328c3a/2024_Syys/OOP/3.3/task2/library/system/BookNotFoundException.java
+- https://github.com/0x6A4B/Metropolia/blob/aec839aec0779e3b2aba57f7f9d0bd2c64328c3a/2024_Syys/OOP/3.3/task2/library/system/Library.java
+- https://github.com/0x6A4B/Metropolia/blob/aec839aec0779e3b2aba57f7f9d0bd2c64328c3a/2024_Syys/OOP/3.3/task2/library/system/MemberNotFoundException.java
+- https://github.com/0x6A4B/Metropolia/blob/aec839aec0779e3b2aba57f7f9d0bd2c64328c3a/2024_Syys/OOP/3.3/task2/library/system/Rand.java
+- https://github.com/0x6A4B/Metropolia/blob/aec839aec0779e3b2aba57f7f9d0bd2c64328c3a/2024_Syys/OOP/3.3/task2/library/model/Book.java
+- https://github.com/0x6A4B/Metropolia/blob/aec839aec0779e3b2aba57f7f9d0bd2c64328c3a/2024_Syys/OOP/3.3/task2/library/model/LibraryMember.java
+
+
+[Tehtävä 3](https://github.com/0x6A4B/Metropolia/tree/aec839aec0779e3b2aba57f7f9d0bd2c64328c3a/2024_Syys/OOP/3.3/task3)
+
+- https://github.com/0x6A4B/Metropolia/blob/aec839aec0779e3b2aba57f7f9d0bd2c64328c3a/2024_Syys/OOP/3.3/task3/library/Main.java
+- https://github.com/0x6A4B/Metropolia/blob/aec839aec0779e3b2aba57f7f9d0bd2c64328c3a/2024_Syys/OOP/3.3/task3/library/system/AnsiColor.java
+- https://github.com/0x6A4B/Metropolia/blob/aec839aec0779e3b2aba57f7f9d0bd2c64328c3a/2024_Syys/OOP/3.3/task3/library/system/BookNotFoundException.java
+- https://github.com/0x6A4B/Metropolia/blob/aec839aec0779e3b2aba57f7f9d0bd2c64328c3a/2024_Syys/OOP/3.3/task3/library/system/Library.java
+- https://github.com/0x6A4B/Metropolia/blob/aec839aec0779e3b2aba57f7f9d0bd2c64328c3a/2024_Syys/OOP/3.3/task3/library/system/MemberNotFoundException.java
+- https://github.com/0x6A4B/Metropolia/blob/aec839aec0779e3b2aba57f7f9d0bd2c64328c3a/2024_Syys/OOP/3.3/task3/library/system/Rand.java
+- https://github.com/0x6A4B/Metropolia/blob/aec839aec0779e3b2aba57f7f9d0bd2c64328c3a/2024_Syys/OOP/3.3/task3/library/model/Book.java
+- https://github.com/0x6A4B/Metropolia/blob/aec839aec0779e3b2aba57f7f9d0bd2c64328c3a/2024_Syys/OOP/3.3/task3/library/model/LibraryMember.java
 
 
 
