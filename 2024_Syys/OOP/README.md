@@ -348,6 +348,32 @@ Tehtävät 1, 2 ja 3 tehty
 
 
 
+### 3.4
+
+Tehtävät 1, 2 ja 3 tehty
+
+
+#### Links
+
+[Tehtävä 1](https://github.com/0x6A4B/Metropolia/blob/ba395268c308c122033757c072326953d42e9fee/2024_Syys/OOP/3.4/task1.java)
+
+- https://github.com/0x6A4B/Metropolia/blob/ba395268c308c122033757c072326953d42e9fee/2024_Syys/OOP/3.4/task1.java
+
+
+[Tehtävä 2](https://github.com/0x6A4B/Metropolia/blob/ba395268c308c122033757c072326953d42e9fee/2024_Syys/OOP/3.4/task2.java)
+
+- https://github.com/0x6A4B/Metropolia/blob/ba395268c308c122033757c072326953d42e9fee/2024_Syys/OOP/3.4/task2.java
+
+
+[Tehtävä 3](https://github.com/0x6A4B/Metropolia/tree/ba395268c308c122033757c072326953d42e9fee/2024_Syys/OOP/3.4/task3)
+
+- https://github.com/0x6A4B/Metropolia/blob/ba395268c308c122033757c072326953d42e9fee/2024_Syys/OOP/3.4/task3/Course.java
+- https://github.com/0x6A4B/Metropolia/blob/ba395268c308c122033757c072326953d42e9fee/2024_Syys/OOP/3.4/task3/Enrollment.java
+- https://github.com/0x6A4B/Metropolia/blob/ba395268c308c122033757c072326953d42e9fee/2024_Syys/OOP/3.4/task3/Main.java
+- https://github.com/0x6A4B/Metropolia/blob/ba395268c308c122033757c072326953d42e9fee/2024_Syys/OOP/3.4/task3/Student.java
+
+
+
 ### x.x
 
 Tehtävät
@@ -369,6 +395,8 @@ Tehtävät
 
 -
 
+### x.x
+
 Tehtävät
 
 
@@ -387,3 +415,25 @@ Tehtävät
 [Tehtävä 3]
 
 -
+
+### x.x
+
+Tehtävät
+
+
+#### Links
+
+[Tehtävä 1]
+
+-
+
+
+[Tehtävä 2]
+
+-
+
+
+[Tehtävä 3]
+
+-
+
