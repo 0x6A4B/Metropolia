@@ -76,11 +76,18 @@ class s1,s2 class1
 
 Why can't a Singleton object be created from outside the Singleton class using the new operation?
 - New would create a new instance of Singleton class and there can only be one static singleton
-    therefore it must not possible to instantiate the singleton object and it must be handled
+    therefore it must not be possible to instantiate the singleton object and it must be handled
     from within the singleton class
 
 
 ### Task 4
+
+- Normal distribution
+- Binomial distribution
+
+
+(W) Familiarize yourself with a few distributions that could be used in the simulator for experimentation. These distributions could be used in the following situations. Find answers online. You can also study other distributions. For example, Google "real life example of normal distribution".
+
 
 
 
