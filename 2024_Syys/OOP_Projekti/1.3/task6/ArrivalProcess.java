@@ -15,18 +15,27 @@ public class ArrivalProcess{
     public long getRand(){
         return b.sample();
     }
-
+/*
     public void addEvent(EventList e){
         e.addEvent(new Event());
+    }
+    */
+    public void addEvent(EventList e){
+        lastArrival += getRand();
+        Event ev = new Event();
+        ev.setEventTime(lastArrival);
+        e.addEvent(ev);
     }
 
     public void createEvents(int events, EventList e){
         for (int i = 0; i < events; i++){
-            lastArrival += getRand();
+            addEvent(e);
+/*            lastArrival += getRand();
             Event ev = new Event();
             ev.setEventTime(lastArrival);
             e.addEvent(ev);
-            
+            */
+
         }
 
     }
