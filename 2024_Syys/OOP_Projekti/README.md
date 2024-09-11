@@ -129,3 +129,18 @@ Tehtävät 1, 2, 3, 4, 5, 6 ja 7 tehty
 
 
 
+### 1.4
+
+
+Tehtävät 1, 2, 3, 4 ja 5 tehty
+
+
+#### Links
+
+
+[Tehtävät 1-5](https://github.com/0x6A4B/Metropolia/blob/956be396306b47861a33f36b6eeea04a85c372f9/2024_Syys/OOP_Projekti/1.4/task1-5.md)
+
+- https://github.com/0x6A4B/Metropolia/blob/956be396306b47861a33f36b6eeea04a85c372f9/2024_Syys/OOP_Projekti/1.4/task1-5.md
+
+
+
