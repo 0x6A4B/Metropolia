@@ -10,10 +10,12 @@ We can measure arrival count, active time in service point and total simulation 
     how much of the time is used in the actual train and how much of it queueing and how ticket systems
     and prebought monthly passes affect the transit times and efficiencies. I am assuming client
     service count to be 100%.
+
 We can use this data to derive the utilization of the trains, ticket sales, platforms and ticket
     checking gates and how these are affected by changing the parameters, e.g. percentage of pre-bought
     monthly passes versus single tickets bough at the station. And the passenger capacities of the
     trains and how much that can affect the end capacity of the whole system.
+
 Also queue lengths and response times can be simulated and observed estimating the effect of more sales
     points for tickets, effect of pre-bought monthly passes and larger train capacities or more
     frequent trains.
