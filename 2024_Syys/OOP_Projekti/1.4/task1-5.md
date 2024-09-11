@@ -46,16 +46,16 @@ Also queue lengths and response times can be simulated and observed estimating t
 ```mermaid
 flowchart LR;
     subgraph s1["Subway station"];
-        n[ ] --> fare{Needs to buy\na ticket?};
-        fare -- yes --> qt[(Queue to\nticket buy)];
+        n[ ] --> fare{Needs to buy<br>a ticket?};
+        fare -- yes --> qt[(Queue to<br>ticket buy)];
         qt -.- buy((Ticket sales));
         fare -- no --> gateq;
         buy --> gateq;
-        gateq[(Queue to\ngates)];
+        gateq[(Queue to<br>gates)];
         gateq -.- gate((Fare gates));
         gate --> line{Train line/direction};
-        line -- Line1--> trainq1[(Queue\nto train 1)];
-        line -- Line1--> trainq2[(Queue\nto train 2)];
+        line -- Line1--> trainq1[(Queue<br>to train 1)];
+        line -- Line1--> trainq2[(Queue<br>to train 2)];
         trainq1 -.- train1((Train 1));
         trainq2 -.- train2((Train 2));
         train1 --> n1[ ];
@@ -73,32 +73,32 @@ flowchart LR;
 ```mermaid
 flowchart LR;
     subgraph s1["Buffet"];
-        n[ ] --> diet{Vegetarian\nnon-veg\nor bbq?};
+        n[ ] --> diet{Vegetarian<br>non-veg<br>or bbq?};
         %%% Vegetarian process
-        diet -- yes --> vegq[(Veg\nqueue)];
+        diet -- yes --> vegq[(Veg<br>queue)];
         vegq -.- drinkv((Drinks));
-        drinkv --> saladvq[(Salad\nqueue)];
+        drinkv --> saladvq[(Salad<br>queue)];
         saladvq -.- saladv((Salads));
-        saladv --> mainvq[(Main\ncourse\nqueue)];
-        mainvq -.- veg((Main\ncourse));
-        veg --> payq[(Queue\nto pay)];
+        saladv --> mainvq[(Main<br>course<br>queue)];
+        mainvq -.- veg((Main<br>course));
+        veg --> payq[(Queue<br>to pay)];
         %%% Non-vegetarian process
-        diet -- no --> nonq[(Non-veg\nqueue)];
+        diet -- no --> nonq[(Non-veg<br>queue)];
         nonq -.- drink((Drinks));
-        drink --> saladq[(Salad\nqueue)];
+        drink --> saladq[(Salad<br>queue)];
         saladq -.- salad((Salads));
-        salad --> mainq[(Main\ncourse\nqueue)];
-        mainq -.- main((Main\ncourse));
-        main --> payq[(Queue\nto pay)];
+        salad --> mainq[(Main<br>course<br>queue)];
+        mainq -.- main((Main<br>course));
+        main --> payq[(Queue<br>to pay)];
         %%% BBQ process
-        diet -- bbq --> bbqq[(BBQ\nqueue)];
-        bbqq -.- order((Make\norder\n& pay));
+        diet -- bbq --> bbqq[(BBQ<br>queue)];
+        bbqq -.- order((Make<br>order<br>& pay));
         order --> nb[ ];
         
         %%% Cashiers for veg and non-veg
         payq -.- pay1((Cashier 1));
         payq -.- pay2((Cashier 2));
-        payq -.- pay3((Self serve\npayment));
+        payq -.- pay3((Self serve<br>payment));
         pay1 --> n3[ ];
         pay2 --> n1[ ];
         pay3 --> n2[ ];
