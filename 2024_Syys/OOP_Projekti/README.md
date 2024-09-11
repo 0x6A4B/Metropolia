@@ -82,3 +82,50 @@ Tehtävät 1, 2, 3 ja 4 tehty
 
 
 
+### 1.3
+
+
+Tehtävät 1, 2, 3, 4, 5, 6 ja 7 tehty
+
+
+#### Links
+
+
+[Tehtävät 1, 3 ja 4]
+
+- https://github.com/0x6A4B/Metropolia/blob/c4b5d77507e0325864dccfdbde61c03bad48b400/2024_Syys/OOP_Projekti/1.3/tasks_1_3_and_4.md
+
+
+[Tehtävä 2]
+
+- https://github.com/0x6A4B/Metropolia/blob/c4b5d77507e0325864dccfdbde61c03bad48b400/2024_Syys/OOP_Projekti/1.3/task2.java
+
+
+[Tehtävä 5]
+
+- https://github.com/0x6A4B/Metropolia/blob/c4b5d77507e0325864dccfdbde61c03bad48b400/2024_Syys/OOP_Projekti/1.3/task5.java
+
+
+[Tehtävä 6](https://github.com/0x6A4B/Metropolia/tree/c4b5d77507e0325864dccfdbde61c03bad48b400/2024_Syys/OOP_Projekti/1.3/task6)
+
+- https://github.com/0x6A4B/Metropolia/blob/c4b5d77507e0325864dccfdbde61c03bad48b400/2024_Syys/OOP_Projekti/1.3/task6/ArrivalProcess.java
+- https://github.com/0x6A4B/Metropolia/blob/c4b5d77507e0325864dccfdbde61c03bad48b400/2024_Syys/OOP_Projekti/1.3/task6/Clock.java
+- https://github.com/0x6A4B/Metropolia/blob/c4b5d77507e0325864dccfdbde61c03bad48b400/2024_Syys/OOP_Projekti/1.3/task6/Event.java
+- https://github.com/0x6A4B/Metropolia/blob/c4b5d77507e0325864dccfdbde61c03bad48b400/2024_Syys/OOP_Projekti/1.3/task6/EventList.java
+- https://github.com/0x6A4B/Metropolia/blob/c4b5d77507e0325864dccfdbde61c03bad48b400/2024_Syys/OOP_Projekti/1.3/task6/EventType.java
+- https://github.com/0x6A4B/Metropolia/blob/c4b5d77507e0325864dccfdbde61c03bad48b400/2024_Syys/OOP_Projekti/1.3/task6/Test.java
+
+
+[Tehtävä 7](https://github.com/0x6A4B/Metropolia/tree/c4b5d77507e0325864dccfdbde61c03bad48b400/2024_Syys/OOP_Projekti/1.3/task7)
+
+- https://github.com/0x6A4B/Metropolia/blob/c4b5d77507e0325864dccfdbde61c03bad48b400/2024_Syys/OOP_Projekti/1.3/task7/ArrivalProcess.java
+- https://github.com/0x6A4B/Metropolia/blob/c4b5d77507e0325864dccfdbde61c03bad48b400/2024_Syys/OOP_Projekti/1.3/task7/Clock.java
+- https://github.com/0x6A4B/Metropolia/blob/c4b5d77507e0325864dccfdbde61c03bad48b400/2024_Syys/OOP_Projekti/1.3/task7/Customer.java
+- https://github.com/0x6A4B/Metropolia/blob/c4b5d77507e0325864dccfdbde61c03bad48b400/2024_Syys/OOP_Projekti/1.3/task7/Event.java
+- https://github.com/0x6A4B/Metropolia/blob/c4b5d77507e0325864dccfdbde61c03bad48b400/2024_Syys/OOP_Projekti/1.3/task7/EventList.java
+- https://github.com/0x6A4B/Metropolia/blob/c4b5d77507e0325864dccfdbde61c03bad48b400/2024_Syys/OOP_Projekti/1.3/task7/EventType.java
+- https://github.com/0x6A4B/Metropolia/blob/c4b5d77507e0325864dccfdbde61c03bad48b400/2024_Syys/OOP_Projekti/1.3/task7/ServicePoint.java
+- https://github.com/0x6A4B/Metropolia/blob/c4b5d77507e0325864dccfdbde61c03bad48b400/2024_Syys/OOP_Projekti/1.3/task7/Test.java
+
+
+
