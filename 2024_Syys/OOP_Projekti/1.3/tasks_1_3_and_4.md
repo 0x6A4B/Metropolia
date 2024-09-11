@@ -82,11 +82,16 @@ Why can't a Singleton object be created from outside the Singleton class using t
 
 ### Task 4
 
-- Normal distribution
-- Binomial distribution
+- Probability distributions
+    - Binomial distribution and normal distribution
+        - These could be used in our transportation simulation to decide
+            which customers have seasonal tickets and who needs to buy a singletrip ticket and
+            whether the passenger is heading to north or south (to city center or to suburbs)
+        - If there will be more stations in the simulation this would be a perfect place for the use
+            of normal distribution
+- Exponential distribution
+    - Often used to model customer arrivals so would be a good choice for generating arrival events
 
-
-(W) Familiarize yourself with a few distributions that could be used in the simulator for experimentation. These distributions could be used in the following situations. Find answers online. You can also study other distributions. For example, Google "real life example of normal distribution".
 
 
 
