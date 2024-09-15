@@ -374,26 +374,23 @@ Tehtävät 1, 2 ja 3 tehty
 
 
 
-### x.x
+### 4.2
 
-Tehtävät
+Tehtävät 1 ja 2 tehty
 
 
 #### Links
 
-[Tehtävä 1]
+[Tehtävä 1](https://github.com/0x6A4B/Metropolia/blob/42aae73245b0ef5528aea3f92237f3aedf38890f/2024_Syys/OOP/4.2/task1.java)
 
--
-
-
-[Tehtävä 2]
-
--
+- https://github.com/0x6A4B/Metropolia/blob/42aae73245b0ef5528aea3f92237f3aedf38890f/2024_Syys/OOP/4.2/task1.java
 
 
-[Tehtävä 3]
+[Tehtävä 2](https://github.com/0x6A4B/Metropolia/blob/42aae73245b0ef5528aea3f92237f3aedf38890f/2024_Syys/OOP/4.2/task2.md)
 
--
+- https://github.com/0x6A4B/Metropolia/blob/42aae73245b0ef5528aea3f92237f3aedf38890f/2024_Syys/OOP/4.2/task2.md
+
+
 
 ### x.x
 
