@@ -392,6 +392,70 @@ Tehtävät 1 ja 2 tehty
 
 
 
+### 5.1
+
+Tehtävät
+
+
+#### Links
+
+[Tehtävä 1]
+
+-
+
+
+[Tehtävä 2]
+
+-
+
+
+[Tehtävä 3]
+
+-
+
+
+
+### 5.2
+
+Tehtävät
+
+
+#### Links
+
+[Tehtävä 1]
+
+-
+
+
+[Tehtävä 2]
+
+-
+
+
+[Tehtävä 3]
+
+-
+
+
+
+### 6.1
+
+Tehtävä 1 tehty
+
+
+#### Links
+
+[Tehtävä 1](https://github.com/0x6A4B/Metropolia/tree/09402c6a3d47fc8118aa9e3af24db45c798a3edd/2024_Syys/OOP/6.1/Task1)
+Tämä hakemisto, Task1, on juuri hakemisto IntelliJ:ssä. Ei 6.1 hakemisto!
+
+- https://github.com/0x6A4B/Metropolia/blob/09402c6a3d47fc8118aa9e3af24db45c798a3edd/2024_Syys/OOP/6.1/Task1/src/main/java/oop/task1/Main.java
+- https://github.com/0x6A4B/Metropolia/blob/09402c6a3d47fc8118aa9e3af24db45c798a3edd/2024_Syys/OOP/6.1/Task1/src/main/java/oop/task1/View/DictionaryView.java
+- https://github.com/0x6A4B/Metropolia/blob/09402c6a3d47fc8118aa9e3af24db45c798a3edd/2024_Syys/OOP/6.1/Task1/src/main/java/oop/task1/Model/Dictionary.java
+- https://github.com/0x6A4B/Metropolia/blob/09402c6a3d47fc8118aa9e3af24db45c798a3edd/2024_Syys/OOP/6.1/Task1/src/main/java/oop/task1/Model/WordNotFoundException.java
+- https://github.com/0x6A4B/Metropolia/blob/09402c6a3d47fc8118aa9e3af24db45c798a3edd/2024_Syys/OOP/6.1/Task1/src/main/java/oop/task1/Controller/DictionaryController.java
+
+
+
 ### x.x
 
 Tehtävät
