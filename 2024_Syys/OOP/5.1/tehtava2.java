@@ -11,7 +11,6 @@ public class tehtava2{
         int num = 1000000;
         int[] numbers;
         long sum = 0;
-        numbers = new int[num];
 
         // parameterize the size
         try{
@@ -19,12 +18,15 @@ public class tehtava2{
             num = Integer.parseInt(args[0]);
         }catch(Exception e){ System.out.println("Naughty user!!! Santa won't visit you!!!"); }
 
+        numbers = new int[num];
+
         for (int i = 0; i < numbers.length; i++)
             numbers[i] = (int) ((Math.random() * 100) * (Math.random() * 100));
 
         cores = Runtime.getRuntime().availableProcessors();
         threads = new Thread[cores];
 
+        // whoops, forgot to handle odd number of iterations...
         int[][] numnum = new int[cores][numbers.length/cores];
         int u = 0;
         for (int i = 0; i < cores; i++){

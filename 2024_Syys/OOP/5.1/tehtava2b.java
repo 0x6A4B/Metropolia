@@ -5,7 +5,7 @@ import java.io.BufferedWriter;
 import java.io.IOException;
 import java.util.PriorityQueue;
 
-public class tehtava2 implements Runnable{
+public class tehtava2b implements Runnable{
     // static as we can share this
     private static long sum = 0;
     
@@ -16,6 +16,10 @@ public class tehtava2 implements Runnable{
     private int[] start;
     private int num;
     private int core;
+
+
+
+    private static int adds = 0;
 
     /* Best spaghetti north of Naples !!! */
 
@@ -43,7 +47,7 @@ public class tehtava2 implements Runnable{
             numString.append(numbers[i] + ",");
             writer(numbers[i], "for.csv");
         }
-
+/*
         // let's write a csv file to be able to confirm the calculation works
         try(FileWriter writer = new FileWriter("num.csv")){
             writer.write(numString.toString().substring(0, numString.toString().length()-1));
@@ -61,7 +65,7 @@ public class tehtava2 implements Runnable{
 
         for (String s : read)
             try{ confirm += Integer.parseInt(s); values++; }catch(Exception e){ örr(e); }
-
+*/
         cores = Runtime.getRuntime().availableProcessors();
         threads = new Thread[cores];
         start = new int[cores];
@@ -72,9 +76,9 @@ public class tehtava2 implements Runnable{
         for (int i = 1; i < cores; i++)
             start[i] = num / cores * i;
         
-        threads[0] = new Thread(new tehtava2(1, numbers, start, num, cores));
+        threads[0] = new Thread(new tehtava2b(1, numbers, start, num, cores));
         for (int i = 1; i < cores; i++)
-            threads[i] = new Thread(new tehtava2(i+1, numbers, start, num, cores));
+            threads[i] = new Thread(new tehtava2b(i+1, numbers, start, num, cores));
         
         for (Thread t : threads)
             t.start();
@@ -90,14 +94,19 @@ public class tehtava2 implements Runnable{
 
         System.out.println("Sum is " + sum);
 
-        System.out.println("Calculated from the " + values + " values in .csv the sum is: " + confirm);
+//        System.out.println("Calculated from the " + values + " values in .csv the sum is: " + confirm);
         // I guess it worked? Who would've guessed, not me..
         //
 
         writeP(numbers);
+        long count = 0;
+        for (int i : numbers)
+            count += i;
+        System.out.println(count);
+        System.out.println(adds);
     }
 
-    public tehtava2(int core, int[] numbers, int[] start, int num, int cores){
+    public tehtava2b(int core, int[] numbers, int[] start, int num, int cores){
         this.numbers = numbers;
         this.cores = cores;
         this.start = start;
@@ -121,10 +130,10 @@ public class tehtava2 implements Runnable{
     // diff addP.csv numsP.csv -y --suppress-common-lines
     // shows missing lines
     // why? something goes wrong with synchronized?
-    private static PriorityQueue<Integer> added =
-        new PriorityQueue<>((Integer i1, Integer i2) -> Integer.compare(i1, i2));
+//    private static PriorityQueue<Integer> added =
+//        new PriorityQueue<>((Integer i1, Integer i2) -> Integer.compare(i1, i2));
     private static void writeP(int[] numbers){
-        while (!added.isEmpty())
+/*        while (!added.isEmpty())
             writer(added.poll(), "addP.csv");
         PriorityQueue<Integer> nums =
             new PriorityQueue<>((Integer i1, Integer i2) -> Integer.compare(i1, i2));
@@ -133,15 +142,18 @@ public class tehtava2 implements Runnable{
         
         while (!nums.isEmpty())
             writer(nums.poll(), "numsP.csv");
+*/
     }
 
 
-    private synchronized void add(int i){ sum += i; writer(i, "add.csv"); added.add(i); }
+    private synchronized void add(int i){ sum += i; adds++; /*writer(i, "add.csv"); added.add(i);*/ }
 
     private static synchronized void writer(int i, String s){
+        /*
         try(BufferedWriter bw = new BufferedWriter(new FileWriter(s, true))){
             bw.write(i+"\n");
         }catch(IOException e){ örr(e); }
+        */
     }
 
    
