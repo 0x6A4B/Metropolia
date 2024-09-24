@@ -417,24 +417,19 @@ Tehtävät
 
 ### 5.2
 
-Tehtävät
+Tehtävät 1 ja 2 tehty
 
 
 #### Links
 
 [Tehtävä 1]
 
--
+- https://github.com/0x6A4B/Metropolia/blob/067d61f50e54bd36f8da93f277a7b508b93c3263/2024_Syys/OOP/5.2/tehtava1.java
 
 
 [Tehtävä 2]
 
--
-
-
-[Tehtävä 3]
-
--
+- https://github.com/0x6A4B/Metropolia/blob/067d61f50e54bd36f8da93f277a7b508b93c3263/2024_Syys/OOP/5.2/tehtava2.java
 
 
 
@@ -455,6 +450,72 @@ Tämä hakemisto, Task1, on juuri hakemisto IntelliJ:ssä. Ei 6.1 hakemisto!
 - https://github.com/0x6A4B/Metropolia/blob/09402c6a3d47fc8118aa9e3af24db45c798a3edd/2024_Syys/OOP/6.1/Task1/src/main/java/oop/task1/Controller/DictionaryController.java
 
 
+
+### 6.2
+
+Tehtävä 1 tehty
+
+
+#### Links
+
+[Tehtävä 1](https://github.com/0x6A4B/Metropolia/tree/067d61f50e54bd36f8da93f277a7b508b93c3263/2024_Syys/OOP/6.2/currencyConverter)
+
+/java/Main.java
+- https://github.com/0x6A4B/Metropolia/blob/067d61f50e54bd36f8da93f277a7b508b93c3263/2024_Syys/OOP/6.2/currencyConverter/src/main/java/Main.java
+/resources
+- https://github.com/0x6A4B/Metropolia/blob/067d61f50e54bd36f8da93f277a7b508b93c3263/2024_Syys/OOP/6.2/currencyConverter/src/main/resources/converter.fxml
+- https://github.com/0x6A4B/Metropolia/blob/067d61f50e54bd36f8da93f277a7b508b93c3263/2024_Syys/OOP/6.2/currencyConverter/src/main/resources/style.css
+/model
+- https://github.com/0x6A4B/Metropolia/blob/067d61f50e54bd36f8da93f277a7b508b93c3263/2024_Syys/OOP/6.2/currencyConverter/src/main/java/model/CurrencyConverterModel.java
+- https://github.com/0x6A4B/Metropolia/blob/067d61f50e54bd36f8da93f277a7b508b93c3263/2024_Syys/OOP/6.2/currencyConverter/src/main/java/model/CurrencyNotFoundException.java
+/controller
+- https://github.com/0x6A4B/Metropolia/blob/067d61f50e54bd36f8da93f277a7b508b93c3263/2024_Syys/OOP/6.2/currencyConverter/src/main/java/controller/CurrencyConverterController.java
+/view
+- https://github.com/0x6A4B/Metropolia/blob/067d61f50e54bd36f8da93f277a7b508b93c3263/2024_Syys/OOP/6.2/currencyConverter/src/main/java/view/CurrencyConverterView.java
+
+
+
+### x.x
+
+Tehtävät
+
+
+#### Links
+
+[Tehtävä 1]
+
+-
+
+
+[Tehtävä 2]
+
+-
+
+
+[Tehtävä 3]
+
+-
+
+### x.x
+
+Tehtävät
+
+
+#### Links
+
+[Tehtävä 1]
+
+-
+
+
+[Tehtävä 2]
+
+-
+
+
+[Tehtävä 3]
+
+-
 
 ### x.x
 
