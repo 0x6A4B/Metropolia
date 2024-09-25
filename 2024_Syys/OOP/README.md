@@ -462,39 +462,49 @@ Tehtävä 1 tehty
 
 /java/Main.java
 - https://github.com/0x6A4B/Metropolia/blob/067d61f50e54bd36f8da93f277a7b508b93c3263/2024_Syys/OOP/6.2/currencyConverter/src/main/java/Main.java
+
 /resources
 - https://github.com/0x6A4B/Metropolia/blob/067d61f50e54bd36f8da93f277a7b508b93c3263/2024_Syys/OOP/6.2/currencyConverter/src/main/resources/converter.fxml
+
 - https://github.com/0x6A4B/Metropolia/blob/067d61f50e54bd36f8da93f277a7b508b93c3263/2024_Syys/OOP/6.2/currencyConverter/src/main/resources/style.css
+
 /model
 - https://github.com/0x6A4B/Metropolia/blob/067d61f50e54bd36f8da93f277a7b508b93c3263/2024_Syys/OOP/6.2/currencyConverter/src/main/java/model/CurrencyConverterModel.java
 - https://github.com/0x6A4B/Metropolia/blob/067d61f50e54bd36f8da93f277a7b508b93c3263/2024_Syys/OOP/6.2/currencyConverter/src/main/java/model/CurrencyNotFoundException.java
+
 /controller
 - https://github.com/0x6A4B/Metropolia/blob/067d61f50e54bd36f8da93f277a7b508b93c3263/2024_Syys/OOP/6.2/currencyConverter/src/main/java/controller/CurrencyConverterController.java
+
 /view
 - https://github.com/0x6A4B/Metropolia/blob/067d61f50e54bd36f8da93f277a7b508b93c3263/2024_Syys/OOP/6.2/currencyConverter/src/main/java/view/CurrencyConverterView.java
 
 
 
-### x.x
+### 6.3
 
-Tehtävät
+Tehtävä 1 tehty
 
 
 #### Links
 
-[Tehtävä 1]
+[Tehtävä 1](https://github.com/0x6A4B/Metropolia/tree/0244d44d82d9752be299b8cd9a16daf690926053/2024_Syys/OOP/6.3/VirtualPet)
 
--
+/
+- https://github.com/0x6A4B/Metropolia/blob/0244d44d82d9752be299b8cd9a16daf690926053/2024_Syys/OOP/6.3/VirtualPet/src/main/java/Main.java
+
+/model
+- https://github.com/0x6A4B/Metropolia/blob/0244d44d82d9752be299b8cd9a16daf690926053/2024_Syys/OOP/6.3/VirtualPet/src/main/java/model/Pet.java
+
+/controller
+- https://github.com/0x6A4B/Metropolia/blob/0244d44d82d9752be299b8cd9a16daf690926053/2024_Syys/OOP/6.3/VirtualPet/src/main/java/controller/PetController.java
+
+/view
+- https://github.com/0x6A4B/Metropolia/blob/0244d44d82d9752be299b8cd9a16daf690926053/2024_Syys/OOP/6.3/VirtualPet/src/main/java/view/PetView.java
+
+../resources
+- https://github.com/0x6A4B/Metropolia/blob/0244d44d82d9752be299b8cd9a16daf690926053/2024_Syys/OOP/6.3/VirtualPet/src/main/resources/CutePet.png
 
 
-[Tehtävä 2]
-
--
-
-
-[Tehtävä 3]
-
--
 
 ### x.x
 
