@@ -28,7 +28,8 @@ public class Notebook implements Serializable {
         System.out.println("Updated note: " + note.getId() + " title: " + note.getTitle());
     }
     public HashMap<UUID, Note> getNotes(){
-        Collections.sort()
+        //Collections.sort()
+        // sort by last modified
         return notes;
     }
 
