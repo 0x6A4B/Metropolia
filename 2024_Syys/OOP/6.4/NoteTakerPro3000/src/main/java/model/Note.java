@@ -5,7 +5,7 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.UUID;
 
-public class Note  implements Comparable<Note>, Serializable {
+public class Note  implements Serializable {
     private final UUID id;
     private LocalDateTime created;
     private LocalDateTime modified;
@@ -31,19 +31,11 @@ public class Note  implements Comparable<Note>, Serializable {
     public void setText(String text) { this.text = text; edited++; }
     public void setTitle(String title) { this.title = title; }
     public int getEdited() { return edited; }
+    public LocalDateTime getModifiedDate(){ return modified; }
+
+    public boolean contentEquals(Note note){ return text.equals(note); }
+
 
     @Override
-    public int compareTo(Note note) {
-        return -note.getModified().compareTo(getModified());
-    }
-
-    /*
-    @Override
-    public boolean equals(Object o){
-        Note n = (Note) o;
-        return n.getId().equals(id);
-    }
-*/
-    @Override
-    public String toString(){ return title; }
+    public String toString(){ return title; /*"Title: " + title + "\tUUID: " + id;*/ }
 }

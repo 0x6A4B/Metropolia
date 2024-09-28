@@ -4,19 +4,20 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
 import javafx.scene.input.MouseEvent;
+import model.Cloud;
 import model.Note;
 import model.Notebook;
+import model.UniqueSystem;
 
 import java.io.*;
-import java.util.HashMap;
-import java.util.Map;
+import java.util.ArrayList;
 import java.util.UUID;
 
-public class Controller {
 
+public class Controller {
     private Notebook notebook;
     private Note currentNote;
-    private boolean updated = false;
+    private UUID systemID;
 
     @FXML
     public void initialize(){
@@ -30,7 +31,7 @@ public class Controller {
             if (!newV) {
                 System.out.println("focus lost");
                 currentNote.setTitle(title.getText());
-                noteChanged();
+                updateNote();
             }
         });
 
@@ -38,15 +39,28 @@ public class Controller {
             if (!newV){
                 System.out.println("Fopcus lsot on textarea");
                 currentNote.setText(text.getText());
-                noteChanged();
+                updateNote();
             }
         });
 
         refreshList();
 
+        if (notes.getItems().size() > 0)
+            currentNote = notes.getItems().get(0);
+        refreshView();
     }
 
     public Controller() {
+        // AWS deprecated the SDK v1 I used and I'm not doing it from scratch because of it
+        // we'll use the deprecated one but let's disable nagging
+        System.setProperty("aws.java.v1.disableDeprecationAnnouncement", "true");
+
+        systemID = new UniqueSystem().getId();  // maybe just save this once to config?
+        // would allow setting of old ID after the change of username or hostname
+        System.out.println("SystemID: " + systemID);
+
+        new Cloud().load(systemID);
+
         load();
 
         // dev/demo mode
@@ -55,8 +69,6 @@ public class Controller {
             notebook.add(new Note());
             notebook.add(new Note());
         }
-
-
     }
 
     @FXML
@@ -97,7 +109,7 @@ public class Controller {
         notebook.add(currentNote);
         refreshList();
         refreshView();
-
+        title.requestFocus();
     }
 
     @FXML
@@ -107,39 +119,19 @@ public class Controller {
 
 
     private void refreshList(){
-        HashMap<UUID, Note> notemap = notebook.getNotes();
+        ArrayList<Note> notelist = notebook.getNotes();
 
         notes.getItems().clear();
 
-        System.out.println("Populating list: ");
-        for (Map.Entry<UUID, Note> entry : notemap.entrySet()){
-            notes.getItems().add(entry.getValue());
-            System.out.println("__");
-        }
-        System.out.println("Listsize: " + notes.getItems().size());
-
+        System.out.println("Populating viewlist: ");
+        notelist.forEach((n) -> notes.getItems().add(n));
     }
 
     private void updateNote(){
         System.out.println("Updating note: " + currentNote.getId());
         notebook.update(currentNote);
         refreshList();
-        notebook.getNotes().forEach((u, n) -> System.out.println(n.getTitle()));
-        updated = false;
-    }
-
-    private void noteChanged(){
-        if (!currentNote.getText().equals(text.getText()))
-            updated = true;
-        System.out.println("UPDATED: " + updated);
-        if (!currentNote.getTitle().equals(title.getText()))
-            updated = true;
-        System.out.println("UPDATED: " + updated);
-
-        // TODO where to put this?
-        // must catch all possible actions by user but not update unnecessarily
-        if (updated)
-            updateNote();
+        notebook.getNotes().forEach(System.out::println);
     }
 
     private void refreshView(){
@@ -151,6 +143,8 @@ public class Controller {
         );
     }
 
+    // saving/loading so simple no real reason to use a class for it?
+    // TODO: maybe put this to a fileoperations class with config file manipulation
     private void load(){
         System.out.println("Trying to load:");
         if (!new File("save.dat").exists()){
@@ -163,7 +157,7 @@ public class Controller {
             System.out.println("NN:" + notebook.size());
         }catch (IOException | ClassNotFoundException e){
             //HANDEL
-            System.out.println(e);
+            System.out.println(e.getMessage());
         }
     }
 
@@ -178,10 +172,13 @@ public class Controller {
         try(ObjectOutputStream os = new ObjectOutputStream(new FileOutputStream("save.dat"))){
             System.out.println("Saving...");
             os.writeObject(notebook);
-            System.out.println("Savved");
+            System.out.println("Saved");
         }catch(IOException e){
             // handle
+            System.out.println(e.getMessage());
         }
+
+        new Cloud().save(systemID);
     }
 
 }

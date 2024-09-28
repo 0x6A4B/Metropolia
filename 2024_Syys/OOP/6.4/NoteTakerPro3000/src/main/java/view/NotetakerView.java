@@ -7,6 +7,22 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
+
+/*
+    TODO:
+    - splashscreen
+    - [DONE] R2 bucket / option to switch it off
+    - config file
+    - [DONE] start with last edited note
+    - [DONE] sort in order of last modified
+    - [DONE?] saving of note state reliably without unnecessary updates to modified date
+    - [DONE] hashcode/UUID for user + system
+    - [DONE] when new created focus the title? or focus text and make the first sentence the title?
+    - [DONE] swap the hashmap to arraylist, not benefiting from hashmap. 'twas a silly idea anyways, young hobbit
+    - [DONE?] refresh viewlist ALWAYS when updating modified date
+
+
+ */
 public class NotetakerView extends Application {
     private Controller controller;
 
@@ -15,14 +31,6 @@ public class NotetakerView extends Application {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("/main.fxml"));
         Parent root = loader.load();
         controller = loader.getController();
-/*
-        notes.getSelectionModel().selectedItemProperty().addListener(new ChangeListener<Note>() {
-            @Override
-            public void changed(ObservableValue<? extends Note> observableValue, Note note, Note t1) {
-
-            }
-
-        });*/
 
         stage.setScene(new Scene(root));
         stage.show();
