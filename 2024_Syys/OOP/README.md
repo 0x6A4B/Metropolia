@@ -519,6 +519,98 @@ Tehtävä 1 tehty
 
 
 
+### 8.1
+
+Tehtävät 1 ja 2 tehty
+
+
+#### Links
+
+[Tehtävä 1](https://github.com/0x6A4B/Metropolia/tree/a9beb8fa9b5a671a26157f642240ea605174bd06/2024_Syys/OOP/8.1)
+
+.iml tiedosto jossa dependency, molempien tehtävien
+- https://github.com/0x6A4B/Metropolia/blob/a9beb8fa9b5a671a26157f642240ea605174bd06/2024_Syys/OOP/8.1/8.1.iml
+
+/src
+- https://github.com/0x6A4B/Metropolia/blob/a9beb8fa9b5a671a26157f642240ea605174bd06/2024_Syys/OOP/8.1/src/Pen.java
+
+/test
+- https://github.com/0x6A4B/Metropolia/blob/a9beb8fa9b5a671a26157f642240ea605174bd06/2024_Syys/OOP/8.1/test/PenTest.java
+
+
+[Tehtävä 2]
+
+/src
+- https://github.com/0x6A4B/Metropolia/blob/a9beb8fa9b5a671a26157f642240ea605174bd06/2024_Syys/OOP/8.1/src/StringManipulator.java
+
+/test
+- https://github.com/0x6A4B/Metropolia/blob/a9beb8fa9b5a671a26157f642240ea605174bd06/2024_Syys/OOP/8.1/test/TestStringManipulator.java
+
+
+
+### x.x
+
+Tehtävät
+
+
+#### Links
+
+[Tehtävä 1]
+
+-
+
+
+[Tehtävä 2]
+
+-
+
+
+[Tehtävä 3]
+
+-
+
+### x.x
+
+Tehtävät
+
+
+#### Links
+
+[Tehtävä 1]
+
+-
+
+
+[Tehtävä 2]
+
+-
+
+
+[Tehtävä 3]
+
+-
+
+### x.x
+
+Tehtävät
+
+
+#### Links
+
+[Tehtävä 1]
+
+-
+
+
+[Tehtävä 2]
+
+-
+
+
+[Tehtävä 3]
+
+-
+
 ### x.x
 
 Tehtävät
