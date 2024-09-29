@@ -81,6 +81,18 @@
       </menus>
     </MenuBar>
     -->
+
+    <MenuBar VBox.vgrow="NEVER">
+      <menus>
+        <Menu mnemonicParsing="false" text="Cloud">
+          <items>
+            <MenuItem fx:id="menuItemDelete" onAction="#menuCloudDelete" mnemonicParsing="false" text="Delete cloudsave" />
+            <CheckMenuItem fx:id="menuItemUseCloud" onAction="#menuCloudSaveAction" mnemonicParsing="false" text="Use cloudsave" selected="true" />
+          </items>
+        </Menu>
+      </menus>
+    </MenuBar>
+
     <SplitPane dividerPositions="0.2505567928730512, 0.7505567928730512" focusTraversable="true" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
       <items>
         <AnchorPane>

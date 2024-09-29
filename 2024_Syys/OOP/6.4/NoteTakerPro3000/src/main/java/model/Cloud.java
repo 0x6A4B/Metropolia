@@ -7,13 +7,17 @@ import com.amazonaws.auth.BasicAWSCredentials;
 import com.amazonaws.client.builder.AwsClientBuilder;
 import com.amazonaws.services.s3.AmazonS3;
 import com.amazonaws.services.s3.AmazonS3ClientBuilder;
-import com.amazonaws.services.s3.model.S3Object;
-import com.amazonaws.services.s3.model.S3ObjectInputStream;
+import com.amazonaws.services.s3.model.*;
 
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.nio.file.attribute.BasicFileAttributes;
+import java.nio.file.attribute.FileTime;
+import java.util.Date;
 import java.util.UUID;
 
 /*
@@ -34,16 +38,21 @@ public class Cloud {
                     "https://0b7ee75e7d0ca725c756c3ed02ac3983.r2.cloudflarestorage.com"
                     , "auto")).build();
     private final String bucket = "notetaker";
-    private String file = "save.dat";   // hardcoded the savefile as I'm lazy as hell
+    private final String file = SaveFile.getFileName();
 
 
-    public Cloud(){
-
-    }
+    public Cloud(){}
 
     // this needs to be planned better and async'ed
     // but now let's just see how it works
     public void load(UUID sysId){
+        System.out.println("Loading from R2...");
+        System.out.println("Is cloud file newer than local: " + cloudNewer());
+
+        if (!cloudNewer())
+            return;
+
+        System.out.println("Cloud file is newer => downloading..");
         try{
             S3Object o = s3client.getObject(bucket, sysId.toString());
             S3ObjectInputStream s3is = o.getObjectContent();
@@ -56,8 +65,10 @@ public class Cloud {
 
             s3is.close();
             os.close();
+            System.out.println("Loaded from R2");
         } catch (AmazonServiceException e) {
             System.err.println(e.getErrorMessage());
+            System.out.println("No save found perhaps?");
         } catch (FileNotFoundException e) {
             System.err.println(e.getMessage());
         } catch (IOException e) {
@@ -66,15 +77,69 @@ public class Cloud {
     }
 
     private void save(){
+        System.out.println("Comparing cloud date and local file date...");
+        System.out.println("Local file is newer: " + localNewer());
+
+        if(!localNewer())
+            return;
+
+        System.out.println("Local file newer so uploading to cloud...");
         try {
             s3client.putObject(bucket, systemId.toString(), new File(file));
         }catch (AmazonServiceException e){
-            System.out.println(e.getErrorMessage());
+            System.err.println(e.getErrorMessage());
         }
         System.out.println("Saved to R2");
+        stampLocalFile();
     }
     public void save(UUID sysId){
         this.systemId = sysId;
         save();
+    }
+
+    public void delete(UUID sysId){
+        try {
+            s3client.deleteObject(bucket, sysId.toString());
+        }catch (AmazonServiceException e){
+            System.err.println(e.getErrorMessage());
+        }
+    }
+
+    // is the local file newer => to minimize unnecessary mutations
+    private int modified(){
+        return getCloudDate().compareTo(getLocalDate());
+    }
+    private boolean localNewer(){ return getLocalDate().compareTo(getCloudDate()) > 0; }
+    private boolean cloudNewer(){ return getCloudDate().compareTo(getLocalDate()) > 0; }
+
+    private Date getCloudDate(){
+        ListObjectsV2Result result =  s3client.listObjectsV2(new ListObjectsV2Request()
+                .withBucketName(bucket));
+
+        for (S3ObjectSummary objectSummary : result.getObjectSummaries())
+            return objectSummary.getLastModified();
+        return new Date("01/01/1900"); // if cloud has no file then it definitely isn't newer..
+        // I mean this could be handled more elegantly... but who cares
+    }
+
+    private Date getLocalDate(){
+        try {
+            return new Date(
+                    Files.readAttributes(Paths.get(file)
+                        , BasicFileAttributes.class).lastModifiedTime().toMillis());
+        }catch(IOException e){
+            System.err.println(e.getMessage());
+        }
+        return new Date("01/01/1900"); // make sure to load from cloud if file missing
+    }
+
+    // unfortunately as the cloud stamps the file when received we need to stamp our file to
+    // match cloud date... or is there a way to stop the silly cloud stamping it upon receive?
+    // modified date is the simplest way to try to keep track of which file version
+    private void stampLocalFile(){
+        try {
+            Files.setLastModifiedTime(Paths.get(file)
+                    , FileTime.from(getCloudDate().toInstant()));
+        }catch (IOException e){ System.err.println(e.getMessage()); }
     }
 }

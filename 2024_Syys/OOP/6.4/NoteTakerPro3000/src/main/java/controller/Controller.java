@@ -4,10 +4,7 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
 import javafx.scene.input.MouseEvent;
-import model.Cloud;
-import model.Note;
-import model.Notebook;
-import model.UniqueSystem;
+import model.*;
 
 import java.io.*;
 import java.util.ArrayList;
@@ -18,6 +15,10 @@ public class Controller {
     private Notebook notebook;
     private Note currentNote;
     private UUID systemID;
+
+    private boolean useCloudSave = true;
+    private boolean updated = false;
+    private final String file = SaveFile.getFileName();
 
     @FXML
     public void initialize(){
@@ -37,7 +38,7 @@ public class Controller {
 
         text.focusedProperty().addListener((ov, oldV, newV) -> {
             if (!newV){
-                System.out.println("Fopcus lsot on textarea");
+                System.out.println("Fopcus lost on textarea");
                 currentNote.setText(text.getText());
                 updateNote();
             }
@@ -94,7 +95,6 @@ public class Controller {
         System.out.println(notes.getSelectionModel().getSelectedItem().getId());
 
         refreshView();
-
     }
 
     @FXML
@@ -117,6 +117,17 @@ public class Controller {
         System.out.println("EXIT");
     }
 
+    @FXML
+    void menuCloudDelete(ActionEvent e){
+        new Cloud().delete(systemID);
+    }
+
+    @FXML
+    void menuCloudSaveAction(ActionEvent e){
+        useCloudSave = ((CheckMenuItem) e.getSource()).isSelected();
+        System.out.println("Cloud save set to: " + useCloudSave);
+    }
+
 
     private void refreshList(){
         ArrayList<Note> notelist = notebook.getNotes();
@@ -129,7 +140,8 @@ public class Controller {
 
     private void updateNote(){
         System.out.println("Updating note: " + currentNote.getId());
-        notebook.update(currentNote);
+        if (notebook.update(currentNote))
+            updated = true;
         refreshList();
         notebook.getNotes().forEach(System.out::println);
     }
@@ -147,38 +159,54 @@ public class Controller {
     // TODO: maybe put this to a fileoperations class with config file manipulation
     private void load(){
         System.out.println("Trying to load:");
+
         if (!new File("save.dat").exists()){
-            System.out.println("No save found!");
+            System.err.println("No save found!");
             return;
         }
-        try(ObjectInputStream is = new ObjectInputStream(new FileInputStream("save.dat"))){
+
+        try(ObjectInputStream is = new ObjectInputStream(new FileInputStream(file))){
             System.out.println("Loading..");
             notebook = (Notebook) is.readObject();
             System.out.println("NN:" + notebook.size());
         }catch (IOException | ClassNotFoundException e){
             //HANDEL
-            System.out.println(e.getMessage());
+            System.err.println(e.getMessage());
         }
     }
 
     public void save(){
-        if (!currentNote.getTitle().equals(title.getText()))
+        if (!currentNote.getTitle().equals(title.getText())) {
             currentNote.setTitle(title.getText());
-        if (!currentNote.getText().equals(text.getText()))
+            updated = true;
+        }
+        if (!currentNote.getText().equals(text.getText())) {
             currentNote.setText(text.getText());
+            updated = true;
+        }
 
+        if (!updated){
+            System.out.println("Not updated => not saving");
+            cloudSave(); // if cloud save doesn't exist we make sure to upload even if no changes
+            return;
+        }
 
         System.out.println("Saving on close");
-        try(ObjectOutputStream os = new ObjectOutputStream(new FileOutputStream("save.dat"))){
+        try(ObjectOutputStream os = new ObjectOutputStream(new FileOutputStream(file))){
             System.out.println("Saving...");
             os.writeObject(notebook);
             System.out.println("Saved");
         }catch(IOException e){
             // handle
-            System.out.println(e.getMessage());
+            System.err.println(e.getMessage());
         }
 
-        new Cloud().save(systemID);
+        cloudSave();
+    }
+
+    private void cloudSave(){
+        if (useCloudSave)
+            new Cloud().save(systemID);
     }
 
 }
