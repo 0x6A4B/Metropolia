@@ -506,26 +506,18 @@ Tehtävä 1 tehty
 
 
 
-### x.x
+### 6.4
 
-Tehtävät
+Tehtävä 1 tehty
 
 
 #### Links
 
-[Tehtävä 1]
+[Tehtävä 1](https://github.com/0x6A4B/Metropolia/tree/290aca8baaf4a37a629acfd4cc0b2218b42abfbe/2024_Syys/OOP/6.4/NoteTakerPro3000)
 
--
-
-
-[Tehtävä 2]
-
--
+- https://github.com/0x6A4B/Metropolia/tree/290aca8baaf4a37a629acfd4cc0b2218b42abfbe/2024_Syys/OOP/6.4/NoteTakerPro3000
 
 
-[Tehtävä 3]
-
--
 
 ### x.x
 
