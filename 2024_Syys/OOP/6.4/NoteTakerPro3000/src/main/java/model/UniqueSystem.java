@@ -15,7 +15,9 @@ public class UniqueSystem {
         String hostname = "";
         try{
             hostname = InetAddress.getLocalHost().getHostName();
-            return UUID.fromString(hostname + username);
+            // this is not acceptable but certain Java versions accept it...
+            //return UUID.fromString(hostname + username);
+            return UUID.nameUUIDFromBytes((hostname + username).getBytes()); // this is expected way
             //return UUID.fromString(InetAddress.getLocalHost().getHostName() + System.getProperty("user.name"));
         }catch(UnknownHostException e) {
             if (hostname == null || hostname.equals("")){
