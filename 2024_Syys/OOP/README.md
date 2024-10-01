@@ -548,47 +548,59 @@ Tehtävät 1 ja 2 tehty
 
 
 
-### x.x
+### 7.1
 
-Tehtävät
-
-
-#### Links
-
-[Tehtävä 1]
-
--
-
-
-[Tehtävä 2]
-
--
-
-
-[Tehtävä 3]
-
--
-
-### x.x
-
-Tehtävät
+Tehtävä 1 tehty
 
 
 #### Links
 
-[Tehtävä 1]
+[Tehtävä 1](https://github.com/0x6A4B/Metropolia/tree/bb5583cf6289de13c1d3d33ddfb9754799dce84d/2024_Syys/OOP/7.1)
 
--
-
-
-[Tehtävä 2]
-
--
+- https://github.com/0x6A4B/Metropolia/blob/bb5583cf6289de13c1d3d33ddfb9754799dce84d/2024_Syys/OOP/7.1/docker-compose.yml
+- https://github.com/0x6A4B/Metropolia/blob/bb5583cf6289de13c1d3d33ddfb9754799dce84d/2024_Syys/OOP/7.1/currencyConverter/sqlScripts/init.sql
+- https://github.com/0x6A4B/Metropolia/blob/bb5583cf6289de13c1d3d33ddfb9754799dce84d/2024_Syys/OOP/7.1/currencyConverter/sqlScripts/queries.sql
 
 
-[Tehtävä 3]
 
--
+### 7.2
+
+Tehtävä 1 tehty
+
+
+#### Links
+
+[Tehtävä 1](https://github.com/0x6A4B/Metropolia/tree/bb5583cf6289de13c1d3d33ddfb9754799dce84d/2024_Syys/OOP/7.2)
+
+/ init skripti ja compose yamli jolla saa marian ylös sekä avaamaan portin ulos kontista
+- https://github.com/0x6A4B/Metropolia/blob/bb5583cf6289de13c1d3d33ddfb9754799dce84d/2024_Syys/OOP/7.2/docker-compose.yml
+- https://github.com/0x6A4B/Metropolia/blob/bb5583cf6289de13c1d3d33ddfb9754799dce84d/2024_Syys/OOP/7.2/currencyConverter/sqlScripts/init.sql
+
+/resources
+- https://github.com/0x6A4B/Metropolia/blob/bb5583cf6289de13c1d3d33ddfb9754799dce84d/2024_Syys/OOP/7.2/currencyConverter/src/main/resources/converter.fxml
+- https://github.com/0x6A4B/Metropolia/blob/bb5583cf6289de13c1d3d33ddfb9754799dce84d/2024_Syys/OOP/7.2/currencyConverter/src/main/resources/style.css
+
+/
+- https://github.com/0x6A4B/Metropolia/blob/bb5583cf6289de13c1d3d33ddfb9754799dce84d/2024_Syys/OOP/7.2/currencyConverter/src/main/java/Main.java
+
+/controller
+- https://github.com/0x6A4B/Metropolia/blob/bb5583cf6289de13c1d3d33ddfb9754799dce84d/2024_Syys/OOP/7.2/currencyConverter/src/main/java/controller/CurrencyConverterController.java
+
+/dao
+- https://github.com/0x6A4B/Metropolia/blob/bb5583cf6289de13c1d3d33ddfb9754799dce84d/2024_Syys/OOP/7.2/currencyConverter/src/main/java/dao/CurrencyDao.java
+
+/datasource
+- https://github.com/0x6A4B/Metropolia/blob/bb5583cf6289de13c1d3d33ddfb9754799dce84d/2024_Syys/OOP/7.2/currencyConverter/src/main/java/datasource/MariaDbConnection.java
+
+/model (entity)
+- https://github.com/0x6A4B/Metropolia/blob/bb5583cf6289de13c1d3d33ddfb9754799dce84d/2024_Syys/OOP/7.2/currencyConverter/src/main/java/model/Currency.java
+- https://github.com/0x6A4B/Metropolia/blob/bb5583cf6289de13c1d3d33ddfb9754799dce84d/2024_Syys/OOP/7.2/currencyConverter/src/main/java/model/CurrencyConverterModel.java
+- https://github.com/0x6A4B/Metropolia/blob/bb5583cf6289de13c1d3d33ddfb9754799dce84d/2024_Syys/OOP/7.2/currencyConverter/src/main/java/model/CurrencyNotFoundException.java
+
+/view
+- https://github.com/0x6A4B/Metropolia/blob/bb5583cf6289de13c1d3d33ddfb9754799dce84d/2024_Syys/OOP/7.2/currencyConverter/src/main/java/view/CurrencyConverterView.java
+
+
 
 ### x.x
 
