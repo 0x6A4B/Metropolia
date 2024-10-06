@@ -622,26 +622,25 @@ init.sql script for initializing mysql DB
 
 
 
-### x.x
+### 7.4
 
-Tehtävät
+Tehtävä 1 tehty
 
 
 #### Links
 
-[Tehtävä 1]
+[Tehtävä 1](https://github.com/0x6A4B/Metropolia/tree/ce614432b2819c3761ff4f8e1a32f5c19c5f1d1d/2024_Syys/OOP/7.4)
 
--
+/ root for IntelliJ
+- https://github.com/0x6A4B/Metropolia/tree/ce614432b2819c3761ff4f8e1a32f5c19c5f1d1d/2024_Syys/OOP/7.4/currencyConverter
+
+docker-compose.yml
+- https://github.com/0x6A4B/Metropolia/blob/ce614432b2819c3761ff4f8e1a32f5c19c5f1d1d/2024_Syys/OOP/7.4/docker-compose.yml
+
+init.sql to initialise DB with db, user and privileges
+- https://github.com/0x6A4B/Metropolia/blob/ce614432b2819c3761ff4f8e1a32f5c19c5f1d1d/2024_Syys/OOP/7.4/currencyConverter/sqlScripts/init.sql
 
 
-[Tehtävä 2]
-
--
-
-
-[Tehtävä 3]
-
--
 
 ### x.x
 
