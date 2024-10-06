@@ -602,6 +602,110 @@ Tehtävä 1 tehty
 
 
 
+### 7.3
+
+Tehtävä 1 tehty
+
+
+#### Links
+
+[Tehtävä 1](https://github.com/0x6A4B/Metropolia/tree/f02cfdb03ae3cad8cced860a6fa91331a90598cf/2024_Syys/OOP/7.3)
+
+/ root for IntelliJ
+- https://github.com/0x6A4B/Metropolia/tree/f02cfdb03ae3cad8cced860a6fa91331a90598cf/2024_Syys/OOP/7.3/currencyConverter
+
+docker-compose.yaml for docker/podman
+- https://github.com/0x6A4B/Metropolia/blob/f02cfdb03ae3cad8cced860a6fa91331a90598cf/2024_Syys/OOP/7.3/docker-compose.yml
+
+init.sql script for initializing mysql DB
+- https://github.com/0x6A4B/Metropolia/blob/f02cfdb03ae3cad8cced860a6fa91331a90598cf/2024_Syys/OOP/7.3/currencyConverter/sqlScripts/init.sql
+
+
+
+### x.x
+
+Tehtävät
+
+
+#### Links
+
+[Tehtävä 1]
+
+-
+
+
+[Tehtävä 2]
+
+-
+
+
+[Tehtävä 3]
+
+-
+
+### x.x
+
+Tehtävät
+
+
+#### Links
+
+[Tehtävä 1]
+
+-
+
+
+[Tehtävä 2]
+
+-
+
+
+[Tehtävä 3]
+
+-
+
+### x.x
+
+Tehtävät
+
+
+#### Links
+
+[Tehtävä 1]
+
+-
+
+
+[Tehtävä 2]
+
+-
+
+
+[Tehtävä 3]
+
+-
+
+### x.x
+
+Tehtävät
+
+
+#### Links
+
+[Tehtävä 1]
+
+-
+
+
+[Tehtävä 2]
+
+-
+
+
+[Tehtävä 3]
+
+-
+
 ### x.x
 
 Tehtävät
