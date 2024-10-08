@@ -642,26 +642,29 @@ init.sql to initialise DB with db, user and privileges
 
 
 
-### x.x
+### 8.2
 
-Tehtävät
+Tehtävät 1 ja 2 tehty
 
 
 #### Links
 
-[Tehtävä 1]
+[Tehtävä 1](https://github.com/0x6A4B/Metropolia/tree/fb80637895b3d6c5e790c2fc2c5912b98061cc7f/2024_Syys/OOP/8.2)
 
--
+- https://github.com/0x6A4B/Metropolia/blob/fb80637895b3d6c5e790c2fc2c5912b98061cc7f/2024_Syys/OOP/8.2/Palindrome.java
 
-
-[Tehtävä 2]
-
--
+- https://github.com/0x6A4B/Metropolia/blob/fb80637895b3d6c5e790c2fc2c5912b98061cc7f/2024_Syys/OOP/8.2/PalindromeTest.java
 
 
-[Tehtävä 3]
+[Tehtävä 2](https://github.com/0x6A4B/Metropolia/tree/fb80637895b3d6c5e790c2fc2c5912b98061cc7f/2024_Syys/OOP/8.2)
 
--
+- https://github.com/0x6A4B/Metropolia/blob/fb80637895b3d6c5e790c2fc2c5912b98061cc7f/2024_Syys/OOP/8.2/ShoppingCart.java
+
+- https://github.com/0x6A4B/Metropolia/blob/fb80637895b3d6c5e790c2fc2c5912b98061cc7f/2024_Syys/OOP/8.2/ShoppingItem.java
+
+- https://github.com/0x6A4B/Metropolia/blob/fb80637895b3d6c5e790c2fc2c5912b98061cc7f/2024_Syys/OOP/8.2/TestShoppingCart.java
+
+
 
 ### x.x
 
