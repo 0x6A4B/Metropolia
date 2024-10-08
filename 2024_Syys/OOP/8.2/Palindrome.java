@@ -1,4 +1,4 @@
-public class task1{
+public class Palindrome {
 
     public static boolean isPalindrome(String s){
         String reversed = "";
