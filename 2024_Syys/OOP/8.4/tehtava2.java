@@ -32,8 +32,9 @@ public class tehtava2 {
 
         // minkä takia "huonompi" taulukon kopionti ratkaisu kykenee käsittelemään suuremman
         // taulukon ennen stackoverflowerror:ia kuin ratkaisu jossa taulukkoa ei kopioida?
-        Integer u[] = new Integer[10000];
+        Integer u[] = new Integer[30000000];
         Arrays.fill(u, 1);
+        /*
         for (int i = 0; i < 20; i++) {
             try {
                 System.out.println("2: " + _recursiveAdd(u, u.length - 1));
@@ -46,6 +47,22 @@ public class tehtava2 {
                 System.out.println("stack overflow1");
             }
         }
+
+         */
+
+
+        new Thread(null, ()->{
+            System.out.println("with thread: " + _recursiveAdd(u, u.length-1));
+        }, "test", 0).start();
+
+        // nyt päädytään tällä tavalla out of memoryyn eli heap loppuu
+        // myös saadaan esille taulukon kopioinnin tehottomuus
+        boolean rankaiseCPUta = false;
+        if (rankaiseCPUta)
+            new Thread(null, ()->{
+                System.out.println("with thread and copy: " + recursiveAdd(u));
+            }, "test", 1<<26).start();
+
 
     }
 
