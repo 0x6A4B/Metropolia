@@ -1,0 +1,11 @@
+services:
+  nginx:
+    image: nginx:latest
+    environment:
+      - PUID=1000
+      - PGID=1000
+    ports:
+      - "8080:80"
+    volumes:
+      - .:/usr/share/nginx/html:Z # :Z for giving THIS container permissions
+    restart: always

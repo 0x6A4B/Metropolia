@@ -1,0 +1,43 @@
+@startuml
+left to right direction
+
+'Ensimmäinen UML
+class Kenneli{}
+class Koira{
+    string nimi_
+    String rotu_
+    int paino_
+
+    void Hauku()
+    void AsetaOminaisuudet()
+}
+Kenneli "1" --> "1..n" Koira : kasvattaa
+
+
+'Toinen UML
+class Joukkue{}
+class Henkilo{}
+Joukkue "Peluuttaja" -- "Pelaaja" Henkilo : Pelaa
+
+
+'Kolmas UML
+class Auto{}
+class Rengas{}
+Auto "1" *-- "4" Rengas
+
+
+'Neljäs UML
+class Kenneli2
+class Koira2
+class Henkilo2
+Kenneli2 o-- Koira2
+Koira2 --o Henkilo2
+
+
+'Viides UML
+class Elain
+class Koiro
+Elain <|- Koiro
+
+
+@enduml

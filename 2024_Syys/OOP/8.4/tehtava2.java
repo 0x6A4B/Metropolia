@@ -53,7 +53,7 @@ public class tehtava2 {
 
         new Thread(null, ()->{
             System.out.println("with thread: " + _recursiveAdd(u, u.length-1));
-        }, "test", 1<<30).start(); // noin 1GB stacksize
+        }, "test", 1<<30).start(); // noin 1GB stacksize on maksimi
 
         // nyt päädytään tällä tavalla out of memoryyn eli heap loppuu
         // myös saadaan esille taulukon kopioinnin tehottomuus

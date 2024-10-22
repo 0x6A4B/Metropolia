@@ -1,0 +1,109 @@
+/*
+# color palette
+# https://coolors.co/c209aa
+# black : #000000 / #0E010C
+# green : #2EC309 / #09C322
+# purple : #C209AA
+# red : #C3092E
+# cyan : #09C360
+# blue : #6009C3
+# lightblue : #09AAC3
+# yellowish-green : #AAC309
+*/
+
+
+body {
+    background-color: #000000;
+    text-align: center; 
+}
+
+h1, h2, h3, h4 {
+    color: #09C322;
+    font-family: "Audiowide";
+}
+
+p {
+    font-family: hack, monospace; /* "Audiowide" */
+    color: #2EC309;
+     
+}
+.left {
+    text-align: left;
+}
+.right {
+    text-align: right;
+}
+
+/* div */
+div {
+/*    background-color:  #0E010C; */
+    margin: 0px 25% 0px 25%;
+    padding: 1em 1em 1em 1em;
+}
+div.right {
+/*    background-color:  #0E010C; */
+    margin: 0px 15% 0px 65%;
+}
+div.left {
+/*    background-color:  #0E010C; */
+    margin: 0px 65% 0px 15%;
+}
+div.invisible {
+    background-color: #000000;
+}
+.row {
+  display: flex; /* equal height of the children */
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  align-items: stretch;
+  justify-content: space-around;
+}
+.col {
+  flex: 1; /* additionally, equal width */
+  margin: 0 2.5em;
+  padding: .5em;
+  border: solid;
+}
+
+/* colors */
+.bggray {
+    background-color: #080808;
+}
+.purple {
+    color: #C209AA;
+}
+.red {
+    color: #C3092E;
+}
+.cyan {
+    color: #09C360;
+}
+.blue {
+    color: #6009C3;
+}
+.lblue {
+    color: #09AAC3;
+}
+.moss {
+    color: #AAC309;
+}
+.bpurple {
+    color: #0E010C;
+}
+.green1 {
+    color: #2EC309;
+}
+.green2 {
+    color: #02C24A; /* #09C322; */
+}
+.green3 {
+    color: #0DFD15;
+}
+.green4 {
+    color: #02A723;
+}
+
+.underline {
+    line-height: 0;
+}
