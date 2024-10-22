@@ -4,7 +4,7 @@
 services:
 
   db:
-    image: mariadb
+    image: docker.io/library/mariadb
     restart: always
     environment:
       MARIADB_ROOT_PASSWORD: example
@@ -14,7 +14,7 @@ services:
       - 3306:3306
 
   adminer:
-    image: adminer
+    image: docker.io/library/adminer
     restart: always
     ports:
       - 8080:8080
