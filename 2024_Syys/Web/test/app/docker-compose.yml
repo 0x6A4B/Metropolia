@@ -1,0 +1,22 @@
+version: "3.1"
+services:
+  server:
+    build:
+      context: .
+      dockerfile: Containerfile
+    ports:
+      - 3000:3000
+    volumes:
+      - ./:/app:Z
+      #- /home/jaykay/Palautukset/2024_Syys/Web/test/app:/app:Z
+    command: npm start
+    develop:
+      watch:
+        - action: sync
+          path: ./src
+          target: /app/src
+
+        - action: rebuild
+          path: package.json
+          target: /app
+
