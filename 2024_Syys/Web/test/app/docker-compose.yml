@@ -8,8 +8,8 @@ services:
       - 3000:3000
     volumes:
       - ./:/app:Z
-      #- /home/jaykay/Palautukset/2024_Syys/Web/test/app:/app:Z
     command: npm start
+    autostart: true
     develop:
       watch:
         - action: sync
