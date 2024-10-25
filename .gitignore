@@ -1,3 +1,8 @@
 # ignore .class java compiled class and .swp vim swap files
 *.swp
 *.class
+
+
+# js
+.packale-lock.json
+node_modules
