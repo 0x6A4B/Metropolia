@@ -1,0 +1,25 @@
+h3 {
+  text-align: center;
+}
+
+
+.App-logo {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+}
+
+.idcard{
+  border:1px;
+  border-style: solid;
+  padding: 5px;
+  margin: 5px;
+  display: flex;
+}
+.idcard > img{
+  
+}
+.idtext p{
+  margin: 0px;
+  margin-left: 10px;
+}

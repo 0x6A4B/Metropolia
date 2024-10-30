@@ -1,0 +1,54 @@
+h3 {
+  text-align: center;
+}
+
+
+.App-logo {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+}
+
+.allcards{
+  display: flex;
+  margin: 10px;
+}
+
+.creditcard{
+  margin: 10px;
+  width: 300px;
+  height: 150px;
+
+  /* WUT?! */
+  border: 1px;
+  border-style: solid;
+  /* border-color: purple; */
+  border-radius: 10px;
+}
+
+.creditcard img{
+  margin: 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  width: 45px;
+  padding: 0px;
+}
+
+.creditcard p{
+  font-size: 0.9em;
+  margin: 0px;
+  margin-left: 20px;
+}
+
+.creditcard .number{
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 10%;
+  margin-bottom: 15px;
+  margin-right: 10%;
+  font-size: 1.8em;
+}
+
+.creditcard .bank{
+  margin-left: 20px;
+}
