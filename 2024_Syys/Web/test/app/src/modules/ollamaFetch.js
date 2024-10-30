@@ -1,4 +1,6 @@
 async function queryOllama(faction){
+    'use server'
+
     let name;
     await fetch('http://192.168.1.105:11434/api/generate', {
         method: "POST",
@@ -24,7 +26,7 @@ async function queryOllama(faction){
         while(JSON.parse(arr[i]).done == false)
             str += JSON.parse(arr[i++]).response;
         name = str;
-        //console.log(str)
+        console.log("XX:", str)
     })
     .catch(error  => console.error(error));
 
