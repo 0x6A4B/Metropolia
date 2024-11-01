@@ -21,3 +21,14 @@ h3 {
   margin: 0px;
   margin-left: 10px;
 }
+
+.randomclass {
+  border: 1px;
+  border-style: solid;
+  margin-bottom: 10px;
+  
+}
+
+.randomclass p{
+  margin: 5px;
+}
