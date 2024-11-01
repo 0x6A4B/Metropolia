@@ -12,7 +12,7 @@ const creditcards = [
     bank: "BNP",
     owner: "Maxence Bouret",
     bgColor: "#11aa99",
-    color: "white" 
+    color: "white"
   },
   {
     type: "MasterCard",
@@ -22,7 +22,7 @@ const creditcards = [
     bank: "N26",
     owner: "Maxence Bouret",
     bgColor: "#eeeeee",
-    color: "#222222",
+    color: "#222222"
   },
   {
     type: "Visa",

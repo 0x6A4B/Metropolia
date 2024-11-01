@@ -1,8 +1,6 @@
 export default function CreditCard(props) {
     let ccProps = props.ccProps;
 
-
-
     const cardNumber = (ccNum) => {
         let pos = 0;
         return [...ccNum.substr(0,12)]
@@ -14,6 +12,7 @@ export default function CreditCard(props) {
             + " " + ccNum.substr(12, 4);
     }
 
+    const pad = (i) => i < 10 ? "0" + i : i;
 
     return (
         <>
@@ -24,11 +23,10 @@ export default function CreditCard(props) {
                     }}>
                 <img align="right" alt={ccProps.type.toLowerCase()} src={"./" + ccProps.type.toLowerCase() + ".svg"} />
                 <p className="number">{cardNumber(ccProps.number)}</p>
-                <p>Expires {ccProps.expirationMonth}/{ccProps.expirationYear}
+                <p>Expires {pad(ccProps.expirationMonth)}/{pad(ccProps.expirationYear.toString().substr(2,2))}
                 <span className="bank">{ccProps.bank}</span></p>
                 <p>{ccProps.owner}</p>
             </div>
-
         </>
   )
 }
