@@ -3,11 +3,13 @@
 ----
 ## Links
 - Link(s) to Group activities: 
-  - 
-  - 
+  - https://github.com/0x6A4B/Metropolia/tree/main/2024_Syys/Web/week2/monday/week2-monday-1
+  - https://github.com/0x6A4B/Metropolia/tree/main/2024_Syys/Web/week2/monday/week2-monday-2
+  - https://github.com/0x6A4B/Metropolia/tree/main/2024_Syys/Web/week2/friday
+
 - Links to Pair programming: 
-  - 
-  - 
+  - https://github.com/0x6A4B/Metropolia/tree/main/2024_Syys/Web/week2/wednesday/front/fe-pp1-part1
+  - https://github.com/0x6A4B/Metropolia/tree/main/2024_Syys/Web/week2/wednesday/front/fe-pp1-part2
 
 ----
 ## Peer assessment
@@ -17,6 +19,7 @@ Evaluate the performance of each member of your group. **Remember** to **evaluat
 - Group Member's Name
 Rate on a Scale of 1-5
 Justify Your Answer: The group member's ability to collaborate, role in the task, how they managed their part, motivation etc.
+
 
 ----
 
