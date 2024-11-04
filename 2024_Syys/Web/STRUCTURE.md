@@ -10,8 +10,27 @@
 ```mermaid
     flowchart LR
 
-    subgraph VMwithDocker
+    subgraph Internet
+        WildWildOuterWeb
+    end
+
+    subgraph Intranet
+        VMvnet
+        DesktopWithGPUandOllama
+        VMwithReverseproxy
+    end
+
+    subgraph ContainerVnet
         reactjsDockerContainer
+        mongoDB
+    end
+
+    subgraph VMvnet
+        VMwithDocker
+    end
+
+    subgraph VMwithDocker
+        ContainerVnet
         expressjsAPI
     end
     subgraph DesktopWithGPUandOllama
@@ -26,12 +45,22 @@
         browser
     end
 
-    browser --> reverseproxyAndCerts
+    %%Internet --> firewall_switch((Firewall/Switch))
+%%    firewall_switch --> Intranet
+    %%browser --> reverseproxyAndCerts
+    browser --> firewall_switch
     reverseproxyAndCerts --> reactjsDockerContainer
     reactjsDockerContainer --> browser
-    browser --> expressjsAPI
+%%    browser --> expressjsAPI
     expressjsAPI --> ollama
     ollama --> expressjsAPI
     expressjsAPI --> browser
+    expressjsAPI --> mongoDB
+    mongoDB --> expressjsAPI
+
+    firewall_switch((Firewalll/Switch)) --> reverseproxyAndCerts
+    reverseproxyAndCerts --> expressjsAPI
+
+
 
 ```
