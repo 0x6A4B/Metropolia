@@ -3,13 +3,13 @@
 ----
 ## Links
 - Link(s) to Group activities: 
-  - https://github.com/0x6A4B/Metropolia/tree/main/2024_Syys/Web/week2/monday/week2-monday-1
-  - https://github.com/0x6A4B/Metropolia/tree/main/2024_Syys/Web/week2/monday/week2-monday-2
-  - https://github.com/0x6A4B/Metropolia/tree/main/2024_Syys/Web/week2/friday
+  - [Monday 1](https://github.com/0x6A4B/Metropolia/tree/main/2024_Syys/Web/week2/monday/week2-monday-1)
+  - [Monday 2](https://github.com/0x6A4B/Metropolia/tree/main/2024_Syys/Web/week2/monday/week2-monday-2)
+  - {Friday](https://github.com/0x6A4B/Metropolia/tree/main/2024_Syys/Web/week2/friday)
 
 - Links to Pair programming: 
-  - https://github.com/0x6A4B/Metropolia/tree/main/2024_Syys/Web/week2/wednesday/front/fe-pp1-part1
-  - https://github.com/0x6A4B/Metropolia/tree/main/2024_Syys/Web/week2/wednesday/front/fe-pp1-part2
+  - [Wednesday 1](https://github.com/0x6A4B/Metropolia/tree/main/2024_Syys/Web/week2/wednesday/front/fe-pp1-part1)
+  - [Wednesday 2](https://github.com/0x6A4B/Metropolia/tree/main/2024_Syys/Web/week2/wednesday/front/fe-pp1-part2)
 
 ----
 ## Peer assessment
