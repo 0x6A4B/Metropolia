@@ -3,10 +3,13 @@
 ----
 ## Links
 - Link(s) to Group activities: 
-  - 
-  - 
+  - https://github.com/0x6A4B/Metropolia/tree/main/2024_Syys/Web/week3/monday/fe/activity1
+  - https://github.com/0x6A4B/Metropolia/tree/main/2024_Syys/Web/week3/monday/fe/activity2
+
 - Links to Pair programming: 
-  - 
+  - https://github.com/0x6A4B/Metropolia/tree/main/2024_Syys/Web/week3/monday/be/activity1(https://github.com/0x6A4B/Metropolia/tree/main/2024_Syys/Web/week3/monday/be/activity1)
+  - https://github.com/0x6A4B/Metropolia/tree/main/2024_Syys/Web/week3/monday/be/activity2(https://github.com/0x6A4B/Metropolia/tree/main/2024_Syys/Web/week3/monday/be/activity2)
+  - https://github.com/Hetahar/week3-fe-pair-programming
   - 
 
 ----
@@ -18,6 +21,10 @@ Evaluate the performance of each member of your group. **Remember** to **evaluat
 Rate on a Scale of 1-5
 Justify Your Answer: The group member's ability to collaborate, role in the task, how they managed their part, motivation etc.
 
+I'm happy working with everyone.
+It was nice working with Waltteri and with Heta.
+Heta is obviously very enthusiastic and hard working.
+
 ----
 
 ## Reflection
@@ -26,7 +33,10 @@ Please use utilize this template to write your reflections.
 
 ### Challenges Faced:
 
-[Detail challenges encountered during the week, such as coding difficulties, time management issues, or project-related obstacles.]
+Getting stable diffusion model that runs on my GPU, it's gonna be a bit of a challenge to run LLM and stable diffusion for the project as I have enough memory fo one of them and that barely. Will need to have a program or bash script that kills llm after it has generated needed text and make sure SD doesn't crash for out of memory issue and does indeed generate pictures.
+Small hitch but has to be solved.
+
+CSS and HTML for UI is always a nuisance for me, I should get better at it. Interesting to try if tailwind is more pleasurable
 
 ### What Went Well and Lessons Learned:
 
@@ -34,11 +44,11 @@ Please use utilize this template to write your reflections.
 
 - Key Learning:
 
-[Summarize the new concepts, techniques, or strategies you learned during the week that have contributed to your understanding and growth.]
+There's always new things to learn, especially in software development
 
 - Online Resources:
 
-[List and briefly describe online resources you found useful during the week, whether they were tutorials, articles, forums, or videos.]
+
 
 ### Coping Strategies:
 
