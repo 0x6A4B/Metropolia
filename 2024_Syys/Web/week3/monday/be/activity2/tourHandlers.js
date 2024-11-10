@@ -5,7 +5,7 @@ const getAllTours = (req, res) => {
 };
 
 const createTour = (req, res) => {
-    res.json(Tour.createById(req.body));
+    res.status(201).json(Tour.createById(req.body));
 };
 
 const getTourById = (req, res) => {
@@ -25,7 +25,7 @@ const updateTour = (req, res) => {
         id: req.params.tourId
     });
     if (result)
-        res.status(201).json(result);
+        res.json(result);
     else
         res.status(404).json({message: "error in update"});
 };
