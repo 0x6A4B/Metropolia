@@ -27,7 +27,7 @@ const updateTour = (req, res) => {
     if (result)
         res.status(201).json(result);
     else
-        res.status(404).json({message: "U St00P1D?"});
+        res.status(404).json({message: "error in update"});
 };
 
 const deleteTour = (req, res) => {
