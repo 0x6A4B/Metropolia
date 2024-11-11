@@ -42,6 +42,7 @@ Won't need to have a valid object if using OR "" for the aforementioned input fi
 
 - https://react.dev/learn/updating-objects-in-state
 - https://react.dev/reference/react/useState
+- https://medium.com/@jan.hesters/updater-functions-in-reacts-setstate-63c7c162b16a
 
 ### Coping Strategies:
 
