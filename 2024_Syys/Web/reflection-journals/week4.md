@@ -3,11 +3,12 @@
 ----
 ## Links
 - Link(s) to Group activities: 
-  - 
-  - 
+  - https://github.com/0x6A4B/Metropolia/tree/main/2024_Syys/Web/week4/monday/forms-intro-lab
+  - https://github.com/0x6A4B/Metropolia/tree/main/2024_Syys/Web/week4/monday/w4-fe-activity1
+
 - Links to Pair programming: 
-  - 
-  - 
+  - https://github.com/0x6A4B/week4-be-pp/
+
 
 ----
 ## Peer assessment
@@ -26,7 +27,7 @@ Please use utilize this template to write your reflections.
 
 ### Challenges Faced:
 
-[Detail challenges encountered during the week, such as coding difficulties, time management issues, or project-related obstacles.]
+State changes with objects are tricky, especially when following the state in to form's input fields.
 
 ### What Went Well and Lessons Learned:
 
@@ -34,11 +35,13 @@ Please use utilize this template to write your reflections.
 
 - Key Learning:
 
-[Summarize the new concepts, techniques, or strategies you learned during the week that have contributed to your understanding and growth.]
+Can't use object.assign with object state change when it's been followed by input field's value property
+Won't need to have a valid object if using OR "" for the aforementioned input field's value property
 
 - Online Resources:
 
-[List and briefly describe online resources you found useful during the week, whether they were tutorials, articles, forums, or videos.]
+- https://react.dev/learn/updating-objects-in-state
+- https://react.dev/reference/react/useState
 
 ### Coping Strategies:
 
